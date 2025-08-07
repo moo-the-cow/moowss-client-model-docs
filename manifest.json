@@ -1,0 +1,346 @@
+{
+  "source_base_path": "C:/Users/roman/Developing/Streaming/moowss-client/docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Models.Shared.ConfigBitrateModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Models.Shared.ConfigBitrateModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Models.Shared.ConfigBitrateModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Models.Shared.ConfigDockerModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Models.Shared.ConfigDockerModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Models.Shared.ConfigDockerModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Models.Shared.ConfigMoblinkModel.MoblinkRelayModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Models.Shared.ConfigMoblinkModel.MoblinkRelayModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Models.Shared.ConfigMoblinkModel.MoblinkRelayModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Models.Shared.ConfigMoblinkModel.MoblinkStreamerModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Models.Shared.ConfigMoblinkModel.MoblinkStreamerModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Models.Shared.ConfigMoblinkModel.MoblinkStreamerModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Models.Shared.ConfigMoblinkModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Models.Shared.ConfigMoblinkModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Models.Shared.ConfigMoblinkModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Models.Shared.ConfigModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Models.Shared.ConfigModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Models.Shared.ConfigModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Models.Shared.ConfigModemModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Models.Shared.ConfigModemModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Models.Shared.ConfigModemModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Models.Shared.ConfigNetworkModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Models.Shared.ConfigNetworkModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Models.Shared.ConfigNetworkModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Models.Shared.ConfigOtherModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Models.Shared.ConfigOtherModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Models.Shared.ConfigOtherModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Models.Shared.ConfigPipelineModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Models.Shared.ConfigPipelineModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Models.Shared.ConfigPipelineModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Models.Shared.ConfigProfileAudioModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Models.Shared.ConfigProfileAudioModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Models.Shared.ConfigProfileAudioModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Models.Shared.ConfigProfileDeviceModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Models.Shared.ConfigProfileDeviceModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Models.Shared.ConfigProfileDeviceModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Models.Shared.ConfigProfileModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Models.Shared.ConfigProfileModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Models.Shared.ConfigProfileModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Models.Shared.ConfigProfileOtherModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Models.Shared.ConfigProfileOtherModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Models.Shared.ConfigProfileOtherModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Models.Shared.ConfigProfileRistModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Models.Shared.ConfigProfileRistModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Models.Shared.ConfigProfileRistModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Models.Shared.ConfigProfileSrtlaModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Models.Shared.ConfigProfileSrtlaModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Models.Shared.ConfigProfileSrtlaModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Models.Shared.ConfigProfileUiModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Models.Shared.ConfigProfileUiModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Models.Shared.ConfigProfileUiModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Models.Shared.ConfigProfileVideoModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Models.Shared.ConfigProfileVideoModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Models.Shared.ConfigProfileVideoModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Models.Shared.ConfigVideoModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Models.Shared.ConfigVideoModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Models.Shared.ConfigVideoModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Models.Shared.ConfigVideoProfilesModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Models.Shared.ConfigVideoProfilesModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Models.Shared.ConfigVideoProfilesModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Models.Shared.ConfigWifiModel.HotspotOptionsModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Models.Shared.ConfigWifiModel.HotspotOptionsModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Models.Shared.ConfigWifiModel.HotspotOptionsModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Models.Shared.ConfigWifiModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Models.Shared.ConfigWifiModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Models.Shared.ConfigWifiModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Models.Shared.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Models.Shared.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Models.Shared",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
