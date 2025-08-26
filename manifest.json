@@ -172,6 +172,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Models.Shared.ConfigProfileDjiModel.Device.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Models.Shared.ConfigProfileDjiModel.Device.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Models.Shared.ConfigProfileDjiModel.Device",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Models.Shared.ConfigProfileDjiModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Models.Shared.ConfigProfileDjiModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Models.Shared.ConfigProfileDjiModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Models.Shared.ConfigProfileModel.yml",
       "output": {
         ".html": {

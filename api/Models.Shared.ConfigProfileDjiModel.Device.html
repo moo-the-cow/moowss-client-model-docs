@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class ConfigProfileModel </title>
+      <title>Class ConfigProfileDjiModel.Device </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class ConfigProfileModel ">
+      <meta name="title" content="Class ConfigProfileDjiModel.Device ">
     
     
       <link rel="shortcut icon" href="../favicon.ico">
@@ -66,36 +66,36 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Models.Shared.ConfigProfileModel">
+            <article class="content wrap" id="_content" data-uid="Models.Shared.ConfigProfileDjiModel.Device">
 
 
 
-  <h1 id="Models_Shared_ConfigProfileModel" data-uid="Models.Shared.ConfigProfileModel" class="text-break">Class ConfigProfileModel</h1>
+  <h1 id="Models_Shared_ConfigProfileDjiModel_Device" data-uid="Models.Shared.ConfigProfileDjiModel.Device" class="text-break">Class ConfigProfileDjiModel.Device</h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">object</span></div>
-    <div class="level1"><span class="xref">ConfigProfileModel</span></div>
+    <div class="level1"><span class="xref">ConfigProfileDjiModel.Device</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Models.html">Models</a>.<a class="xref" href="Models.Shared.html">Shared</a></h6>
   <h6><strong>Assembly</strong>: moowss-client.dll</h6>
-  <h5 id="Models_Shared_ConfigProfileModel_syntax">Syntax</h5>
+  <h5 id="Models_Shared_ConfigProfileDjiModel_Device_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ConfigProfileModel</code></pre>
+    <pre><code class="lang-csharp hljs">public class ConfigProfileDjiModel.Device</code></pre>
   </div>
   <h3 id="properties">Properties
 </h3>
 
 
-  <a id="Models_Shared_ConfigProfileModel_AudioSettings_" data-uid="Models.Shared.ConfigProfileModel.AudioSettings*"></a>
-  <h4 id="Models_Shared_ConfigProfileModel_AudioSettings" data-uid="Models.Shared.ConfigProfileModel.AudioSettings">AudioSettings</h4>
+  <a id="Models_Shared_ConfigProfileDjiModel_Device_AutoSetting_" data-uid="Models.Shared.ConfigProfileDjiModel.Device.AutoSetting*"></a>
+  <h4 id="Models_Shared_ConfigProfileDjiModel_Device_AutoSetting" data-uid="Models.Shared.ConfigProfileDjiModel.Device.AutoSetting">AutoSetting</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;AudioSettings&quot;)]
-public ConfigProfileAudioModel AudioSettings { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;AutoSetting&quot;)]
+public bool AutoSetting { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -107,258 +107,21 @@ public ConfigProfileAudioModel AudioSettings { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Models.Shared.ConfigProfileAudioModel.html">ConfigProfileAudioModel</a></td>
+        <td><span class="xref">bool</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
 
 
-  <a id="Models_Shared_ConfigProfileModel_ConfigProfileVersion_" data-uid="Models.Shared.ConfigProfileModel.ConfigProfileVersion*"></a>
-  <h4 id="Models_Shared_ConfigProfileModel_ConfigProfileVersion" data-uid="Models.Shared.ConfigProfileModel.ConfigProfileVersion">ConfigProfileVersion</h4>
+  <a id="Models_Shared_ConfigProfileDjiModel_Device_BitrateTarget_" data-uid="Models.Shared.ConfigProfileDjiModel.Device.BitrateTarget*"></a>
+  <h4 id="Models_Shared_ConfigProfileDjiModel_Device_BitrateTarget" data-uid="Models.Shared.ConfigProfileDjiModel.Device.BitrateTarget">BitrateTarget</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;ConfigVersion&quot;)]
-public double ConfigProfileVersion { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">double</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="Models_Shared_ConfigProfileModel_DeviceSettings_" data-uid="Models.Shared.ConfigProfileModel.DeviceSettings*"></a>
-  <h4 id="Models_Shared_ConfigProfileModel_DeviceSettings" data-uid="Models.Shared.ConfigProfileModel.DeviceSettings">DeviceSettings</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;DeviceSettings&quot;)]
-public ConfigProfileDeviceModel DeviceSettings { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Models.Shared.ConfigProfileDeviceModel.html">ConfigProfileDeviceModel</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="Models_Shared_ConfigProfileModel_DjiSettings_" data-uid="Models.Shared.ConfigProfileModel.DjiSettings*"></a>
-  <h4 id="Models_Shared_ConfigProfileModel_DjiSettings" data-uid="Models.Shared.ConfigProfileModel.DjiSettings">DjiSettings</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;DjiSettings&quot;)]
-public ConfigProfileDjiModel DjiSettings { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Models.Shared.ConfigProfileDjiModel.html">ConfigProfileDjiModel</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="Models_Shared_ConfigProfileModel_OtherSettings_" data-uid="Models.Shared.ConfigProfileModel.OtherSettings*"></a>
-  <h4 id="Models_Shared_ConfigProfileModel_OtherSettings" data-uid="Models.Shared.ConfigProfileModel.OtherSettings">OtherSettings</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;OtherSettings&quot;)]
-public ConfigProfileOtherModel OtherSettings { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Models.Shared.ConfigProfileOtherModel.html">ConfigProfileOtherModel</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="Models_Shared_ConfigProfileModel_PassPhrase_" data-uid="Models.Shared.ConfigProfileModel.PassPhrase*"></a>
-  <h4 id="Models_Shared_ConfigProfileModel_PassPhrase" data-uid="Models.Shared.ConfigProfileModel.PassPhrase">PassPhrase</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;PassPhrase&quot;)]
-public string PassPhrase { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">string</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="Models_Shared_ConfigProfileModel_PipelineName_" data-uid="Models.Shared.ConfigProfileModel.PipelineName*"></a>
-  <h4 id="Models_Shared_ConfigProfileModel_PipelineName" data-uid="Models.Shared.ConfigProfileModel.PipelineName">PipelineName</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;PipelineName&quot;)]
-public string PipelineName { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">string</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="Models_Shared_ConfigProfileModel_ProfileName_" data-uid="Models.Shared.ConfigProfileModel.ProfileName*"></a>
-  <h4 id="Models_Shared_ConfigProfileModel_ProfileName" data-uid="Models.Shared.ConfigProfileModel.ProfileName">ProfileName</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;ProfileName&quot;)]
-public string ProfileName { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">string</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="Models_Shared_ConfigProfileModel_Protocol_" data-uid="Models.Shared.ConfigProfileModel.Protocol*"></a>
-  <h4 id="Models_Shared_ConfigProfileModel_Protocol" data-uid="Models.Shared.ConfigProfileModel.Protocol">Protocol</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;Protocol&quot;)]
-public string Protocol { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">string</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="Models_Shared_ConfigProfileModel_RemoteAddr_" data-uid="Models.Shared.ConfigProfileModel.RemoteAddr*"></a>
-  <h4 id="Models_Shared_ConfigProfileModel_RemoteAddr" data-uid="Models.Shared.ConfigProfileModel.RemoteAddr">RemoteAddr</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Required(ErrorMessage = &quot;Please enter a Remote Address&quot;)]
-[JsonPropertyName(&quot;RemoteAddr&quot;)]
-public string RemoteAddr { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">string</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="Models_Shared_ConfigProfileModel_RemotePort_" data-uid="Models.Shared.ConfigProfileModel.RemotePort*"></a>
-  <h4 id="Models_Shared_ConfigProfileModel_RemotePort" data-uid="Models.Shared.ConfigProfileModel.RemotePort">RemotePort</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[RegularExpression(&quot;^[\\d]{4,}$&quot;, ErrorMessage = &quot;You cannot enter reserved Port numbers enter a higher Portnumber&quot;)]
-[Required(ErrorMessage = &quot;Port Number must be entered&quot;)]
-[JsonPropertyName(&quot;RemotePort&quot;)]
-public int RemotePort { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;BitrateTarget&quot;)]
+public int BitrateTarget { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -377,66 +140,14 @@ public int RemotePort { get; set; }</code></pre>
   </table>
 
 
-  <a id="Models_Shared_ConfigProfileModel_RistSettings_" data-uid="Models.Shared.ConfigProfileModel.RistSettings*"></a>
-  <h4 id="Models_Shared_ConfigProfileModel_RistSettings" data-uid="Models.Shared.ConfigProfileModel.RistSettings">RistSettings</h4>
+  <a id="Models_Shared_ConfigProfileDjiModel_Device_DeviceAddress_" data-uid="Models.Shared.ConfigProfileDjiModel.Device.DeviceAddress*"></a>
+  <h4 id="Models_Shared_ConfigProfileDjiModel_Device_DeviceAddress" data-uid="Models.Shared.ConfigProfileDjiModel.Device.DeviceAddress">DeviceAddress</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;RistSettings&quot;)]
-public ConfigProfileRistModel RistSettings { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Models.Shared.ConfigProfileRistModel.html">ConfigProfileRistModel</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="Models_Shared_ConfigProfileModel_SrtlaSettings_" data-uid="Models.Shared.ConfigProfileModel.SrtlaSettings*"></a>
-  <h4 id="Models_Shared_ConfigProfileModel_SrtlaSettings" data-uid="Models.Shared.ConfigProfileModel.SrtlaSettings">SrtlaSettings</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;SrtlaSettings&quot;)]
-public ConfigProfileSrtlaModel SrtlaSettings { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Models.Shared.ConfigProfileSrtlaModel.html">ConfigProfileSrtlaModel</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="Models_Shared_ConfigProfileModel_StreamId_" data-uid="Models.Shared.ConfigProfileModel.StreamId*"></a>
-  <h4 id="Models_Shared_ConfigProfileModel_StreamId" data-uid="Models.Shared.ConfigProfileModel.StreamId">StreamId</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;StreamId&quot;)]
-public string StreamId { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;DeviceAddress&quot;)]
+public string DeviceAddress { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -455,14 +166,14 @@ public string StreamId { get; set; }</code></pre>
   </table>
 
 
-  <a id="Models_Shared_ConfigProfileModel_UiSettings_" data-uid="Models.Shared.ConfigProfileModel.UiSettings*"></a>
-  <h4 id="Models_Shared_ConfigProfileModel_UiSettings" data-uid="Models.Shared.ConfigProfileModel.UiSettings">UiSettings</h4>
+  <a id="Models_Shared_ConfigProfileDjiModel_Device_DeviceFullName_" data-uid="Models.Shared.ConfigProfileDjiModel.Device.DeviceFullName*"></a>
+  <h4 id="Models_Shared_ConfigProfileDjiModel_Device_DeviceFullName" data-uid="Models.Shared.ConfigProfileDjiModel.Device.DeviceFullName">DeviceFullName</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;UiSettings&quot;)]
-public ConfigProfileUiModel UiSettings { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;DeviceFullName&quot;)]
+public string DeviceFullName { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -474,21 +185,21 @@ public ConfigProfileUiModel UiSettings { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Models.Shared.ConfigProfileUiModel.html">ConfigProfileUiModel</a></td>
+        <td><span class="xref">string</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
 
 
-  <a id="Models_Shared_ConfigProfileModel_VideoSettings_" data-uid="Models.Shared.ConfigProfileModel.VideoSettings*"></a>
-  <h4 id="Models_Shared_ConfigProfileModel_VideoSettings" data-uid="Models.Shared.ConfigProfileModel.VideoSettings">VideoSettings</h4>
+  <a id="Models_Shared_ConfigProfileDjiModel_Device_DeviceIsActive_" data-uid="Models.Shared.ConfigProfileDjiModel.Device.DeviceIsActive*"></a>
+  <h4 id="Models_Shared_ConfigProfileDjiModel_Device_DeviceIsActive" data-uid="Models.Shared.ConfigProfileDjiModel.Device.DeviceIsActive">DeviceIsActive</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;VideoSettings&quot;)]
-public ConfigProfileVideoModel VideoSettings { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;DeviceIsActive&quot;)]
+public bool DeviceIsActive { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -500,7 +211,215 @@ public ConfigProfileVideoModel VideoSettings { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Models.Shared.ConfigProfileVideoModel.html">ConfigProfileVideoModel</a></td>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Models_Shared_ConfigProfileDjiModel_Device_DeviceModelEnum_" data-uid="Models.Shared.ConfigProfileDjiModel.Device.DeviceModelEnum*"></a>
+  <h4 id="Models_Shared_ConfigProfileDjiModel_Device_DeviceModelEnum" data-uid="Models.Shared.ConfigProfileDjiModel.Device.DeviceModelEnum">DeviceModelEnum</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;DeviceModel&quot;)]
+public int DeviceModelEnum { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Models_Shared_ConfigProfileDjiModel_Device_EisEnum_" data-uid="Models.Shared.ConfigProfileDjiModel.Device.EisEnum*"></a>
+  <h4 id="Models_Shared_ConfigProfileDjiModel_Device_EisEnum" data-uid="Models.Shared.ConfigProfileDjiModel.Device.EisEnum">EisEnum</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;Eis&quot;)]
+public int EisEnum { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Models_Shared_ConfigProfileDjiModel_Device_FourDigitPinCode_" data-uid="Models.Shared.ConfigProfileDjiModel.Device.FourDigitPinCode*"></a>
+  <h4 id="Models_Shared_ConfigProfileDjiModel_Device_FourDigitPinCode" data-uid="Models.Shared.ConfigProfileDjiModel.Device.FourDigitPinCode">FourDigitPinCode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;FourDigitPinCode&quot;)]
+public string FourDigitPinCode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Models_Shared_ConfigProfileDjiModel_Device_FpsEnum_" data-uid="Models.Shared.ConfigProfileDjiModel.Device.FpsEnum*"></a>
+  <h4 id="Models_Shared_ConfigProfileDjiModel_Device_FpsEnum" data-uid="Models.Shared.ConfigProfileDjiModel.Device.FpsEnum">FpsEnum</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;Fps&quot;)]
+public int FpsEnum { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Models_Shared_ConfigProfileDjiModel_Device_ResolutionEnum_" data-uid="Models.Shared.ConfigProfileDjiModel.Device.ResolutionEnum*"></a>
+  <h4 id="Models_Shared_ConfigProfileDjiModel_Device_ResolutionEnum" data-uid="Models.Shared.ConfigProfileDjiModel.Device.ResolutionEnum">ResolutionEnum</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;Resolution&quot;)]
+public int ResolutionEnum { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Models_Shared_ConfigProfileDjiModel_Device_UsedNonBondingIp_" data-uid="Models.Shared.ConfigProfileDjiModel.Device.UsedNonBondingIp*"></a>
+  <h4 id="Models_Shared_ConfigProfileDjiModel_Device_UsedNonBondingIp" data-uid="Models.Shared.ConfigProfileDjiModel.Device.UsedNonBondingIp">UsedNonBondingIp</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;UsedNonBondingIp&quot;)]
+public string UsedNonBondingIp { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Models_Shared_ConfigProfileDjiModel_Device_WifiPassword_" data-uid="Models.Shared.ConfigProfileDjiModel.Device.WifiPassword*"></a>
+  <h4 id="Models_Shared_ConfigProfileDjiModel_Device_WifiPassword" data-uid="Models.Shared.ConfigProfileDjiModel.Device.WifiPassword">WifiPassword</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;WifiPassword&quot;)]
+public string WifiPassword { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Models_Shared_ConfigProfileDjiModel_Device_WifiSsid_" data-uid="Models.Shared.ConfigProfileDjiModel.Device.WifiSsid*"></a>
+  <h4 id="Models_Shared_ConfigProfileDjiModel_Device_WifiSsid" data-uid="Models.Shared.ConfigProfileDjiModel.Device.WifiSsid">WifiSsid</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;WifiSsid&quot;)]
+public string WifiSsid { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
         <td></td>
       </tr>
     </tbody>

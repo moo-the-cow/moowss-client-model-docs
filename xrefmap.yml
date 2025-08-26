@@ -58,19 +58,6 @@ references:
   commentId: T:Models.Shared.ConfigDockerModel
   fullName: Models.Shared.ConfigDockerModel
   nameWithType: ConfigDockerModel
-- uid: Models.Shared.ConfigDockerModel.MosquittoMqttEnabled
-  name: MosquittoMqttEnabled
-  href: api/Models.Shared.ConfigDockerModel.html#Models_Shared_ConfigDockerModel_MosquittoMqttEnabled
-  commentId: P:Models.Shared.ConfigDockerModel.MosquittoMqttEnabled
-  fullName: Models.Shared.ConfigDockerModel.MosquittoMqttEnabled
-  nameWithType: ConfigDockerModel.MosquittoMqttEnabled
-- uid: Models.Shared.ConfigDockerModel.MosquittoMqttEnabled*
-  name: MosquittoMqttEnabled
-  href: api/Models.Shared.ConfigDockerModel.html#Models_Shared_ConfigDockerModel_MosquittoMqttEnabled_
-  commentId: Overload:Models.Shared.ConfigDockerModel.MosquittoMqttEnabled
-  isSpec: "True"
-  fullName: Models.Shared.ConfigDockerModel.MosquittoMqttEnabled
-  nameWithType: ConfigDockerModel.MosquittoMqttEnabled
 - uid: Models.Shared.ConfigDockerModel.NetdataEnabled
   name: NetdataEnabled
   href: api/Models.Shared.ConfigDockerModel.html#Models_Shared_ConfigDockerModel_NetdataEnabled
@@ -84,6 +71,19 @@ references:
   isSpec: "True"
   fullName: Models.Shared.ConfigDockerModel.NetdataEnabled
   nameWithType: ConfigDockerModel.NetdataEnabled
+- uid: Models.Shared.ConfigDockerModel.NoVncChromiumEnabled
+  name: NoVncChromiumEnabled
+  href: api/Models.Shared.ConfigDockerModel.html#Models_Shared_ConfigDockerModel_NoVncChromiumEnabled
+  commentId: P:Models.Shared.ConfigDockerModel.NoVncChromiumEnabled
+  fullName: Models.Shared.ConfigDockerModel.NoVncChromiumEnabled
+  nameWithType: ConfigDockerModel.NoVncChromiumEnabled
+- uid: Models.Shared.ConfigDockerModel.NoVncChromiumEnabled*
+  name: NoVncChromiumEnabled
+  href: api/Models.Shared.ConfigDockerModel.html#Models_Shared_ConfigDockerModel_NoVncChromiumEnabled_
+  commentId: Overload:Models.Shared.ConfigDockerModel.NoVncChromiumEnabled
+  isSpec: "True"
+  fullName: Models.Shared.ConfigDockerModel.NoVncChromiumEnabled
+  nameWithType: ConfigDockerModel.NoVncChromiumEnabled
 - uid: Models.Shared.ConfigMoblinkModel
   name: ConfigMoblinkModel
   href: api/Models.Shared.ConfigMoblinkModel.html
@@ -841,6 +841,19 @@ references:
   isSpec: "True"
   fullName: Models.Shared.ConfigOtherModel.MpegTsPagageSizeMultiplicator
   nameWithType: ConfigOtherModel.MpegTsPagageSizeMultiplicator
+- uid: Models.Shared.ConfigOtherModel.RecordOnly
+  name: RecordOnly
+  href: api/Models.Shared.ConfigOtherModel.html#Models_Shared_ConfigOtherModel_RecordOnly
+  commentId: P:Models.Shared.ConfigOtherModel.RecordOnly
+  fullName: Models.Shared.ConfigOtherModel.RecordOnly
+  nameWithType: ConfigOtherModel.RecordOnly
+- uid: Models.Shared.ConfigOtherModel.RecordOnly*
+  name: RecordOnly
+  href: api/Models.Shared.ConfigOtherModel.html#Models_Shared_ConfigOtherModel_RecordOnly_
+  commentId: Overload:Models.Shared.ConfigOtherModel.RecordOnly
+  isSpec: "True"
+  fullName: Models.Shared.ConfigOtherModel.RecordOnly
+  nameWithType: ConfigOtherModel.RecordOnly
 - uid: Models.Shared.ConfigPipelineModel
   name: ConfigPipelineModel
   href: api/Models.Shared.ConfigPipelineModel.html
@@ -1015,58 +1028,6 @@ references:
   commentId: T:Models.Shared.ConfigProfileDeviceModel
   fullName: Models.Shared.ConfigProfileDeviceModel
   nameWithType: ConfigProfileDeviceModel
-- uid: Models.Shared.ConfigProfileDeviceModel.CurrentMultiVideoMainPipelineDeviceName
-  name: CurrentMultiVideoMainPipelineDeviceName
-  href: api/Models.Shared.ConfigProfileDeviceModel.html#Models_Shared_ConfigProfileDeviceModel_CurrentMultiVideoMainPipelineDeviceName
-  commentId: P:Models.Shared.ConfigProfileDeviceModel.CurrentMultiVideoMainPipelineDeviceName
-  fullName: Models.Shared.ConfigProfileDeviceModel.CurrentMultiVideoMainPipelineDeviceName
-  nameWithType: ConfigProfileDeviceModel.CurrentMultiVideoMainPipelineDeviceName
-- uid: Models.Shared.ConfigProfileDeviceModel.CurrentMultiVideoMainPipelineDeviceName*
-  name: CurrentMultiVideoMainPipelineDeviceName
-  href: api/Models.Shared.ConfigProfileDeviceModel.html#Models_Shared_ConfigProfileDeviceModel_CurrentMultiVideoMainPipelineDeviceName_
-  commentId: Overload:Models.Shared.ConfigProfileDeviceModel.CurrentMultiVideoMainPipelineDeviceName
-  isSpec: "True"
-  fullName: Models.Shared.ConfigProfileDeviceModel.CurrentMultiVideoMainPipelineDeviceName
-  nameWithType: ConfigProfileDeviceModel.CurrentMultiVideoMainPipelineDeviceName
-- uid: Models.Shared.ConfigProfileDeviceModel.CurrentMultiVideoMainPipelineDevicePhysPath
-  name: CurrentMultiVideoMainPipelineDevicePhysPath
-  href: api/Models.Shared.ConfigProfileDeviceModel.html#Models_Shared_ConfigProfileDeviceModel_CurrentMultiVideoMainPipelineDevicePhysPath
-  commentId: P:Models.Shared.ConfigProfileDeviceModel.CurrentMultiVideoMainPipelineDevicePhysPath
-  fullName: Models.Shared.ConfigProfileDeviceModel.CurrentMultiVideoMainPipelineDevicePhysPath
-  nameWithType: ConfigProfileDeviceModel.CurrentMultiVideoMainPipelineDevicePhysPath
-- uid: Models.Shared.ConfigProfileDeviceModel.CurrentMultiVideoMainPipelineDevicePhysPath*
-  name: CurrentMultiVideoMainPipelineDevicePhysPath
-  href: api/Models.Shared.ConfigProfileDeviceModel.html#Models_Shared_ConfigProfileDeviceModel_CurrentMultiVideoMainPipelineDevicePhysPath_
-  commentId: Overload:Models.Shared.ConfigProfileDeviceModel.CurrentMultiVideoMainPipelineDevicePhysPath
-  isSpec: "True"
-  fullName: Models.Shared.ConfigProfileDeviceModel.CurrentMultiVideoMainPipelineDevicePhysPath
-  nameWithType: ConfigProfileDeviceModel.CurrentMultiVideoMainPipelineDevicePhysPath
-- uid: Models.Shared.ConfigProfileDeviceModel.CurrentMultiVideoSmallPipelineDeviceName
-  name: CurrentMultiVideoSmallPipelineDeviceName
-  href: api/Models.Shared.ConfigProfileDeviceModel.html#Models_Shared_ConfigProfileDeviceModel_CurrentMultiVideoSmallPipelineDeviceName
-  commentId: P:Models.Shared.ConfigProfileDeviceModel.CurrentMultiVideoSmallPipelineDeviceName
-  fullName: Models.Shared.ConfigProfileDeviceModel.CurrentMultiVideoSmallPipelineDeviceName
-  nameWithType: ConfigProfileDeviceModel.CurrentMultiVideoSmallPipelineDeviceName
-- uid: Models.Shared.ConfigProfileDeviceModel.CurrentMultiVideoSmallPipelineDeviceName*
-  name: CurrentMultiVideoSmallPipelineDeviceName
-  href: api/Models.Shared.ConfigProfileDeviceModel.html#Models_Shared_ConfigProfileDeviceModel_CurrentMultiVideoSmallPipelineDeviceName_
-  commentId: Overload:Models.Shared.ConfigProfileDeviceModel.CurrentMultiVideoSmallPipelineDeviceName
-  isSpec: "True"
-  fullName: Models.Shared.ConfigProfileDeviceModel.CurrentMultiVideoSmallPipelineDeviceName
-  nameWithType: ConfigProfileDeviceModel.CurrentMultiVideoSmallPipelineDeviceName
-- uid: Models.Shared.ConfigProfileDeviceModel.CurrentMultiVideoSmallPipelineDevicePhysPath
-  name: CurrentMultiVideoSmallPipelineDevicePhysPath
-  href: api/Models.Shared.ConfigProfileDeviceModel.html#Models_Shared_ConfigProfileDeviceModel_CurrentMultiVideoSmallPipelineDevicePhysPath
-  commentId: P:Models.Shared.ConfigProfileDeviceModel.CurrentMultiVideoSmallPipelineDevicePhysPath
-  fullName: Models.Shared.ConfigProfileDeviceModel.CurrentMultiVideoSmallPipelineDevicePhysPath
-  nameWithType: ConfigProfileDeviceModel.CurrentMultiVideoSmallPipelineDevicePhysPath
-- uid: Models.Shared.ConfigProfileDeviceModel.CurrentMultiVideoSmallPipelineDevicePhysPath*
-  name: CurrentMultiVideoSmallPipelineDevicePhysPath
-  href: api/Models.Shared.ConfigProfileDeviceModel.html#Models_Shared_ConfigProfileDeviceModel_CurrentMultiVideoSmallPipelineDevicePhysPath_
-  commentId: Overload:Models.Shared.ConfigProfileDeviceModel.CurrentMultiVideoSmallPipelineDevicePhysPath
-  isSpec: "True"
-  fullName: Models.Shared.ConfigProfileDeviceModel.CurrentMultiVideoSmallPipelineDevicePhysPath
-  nameWithType: ConfigProfileDeviceModel.CurrentMultiVideoSmallPipelineDevicePhysPath
 - uid: Models.Shared.ConfigProfileDeviceModel.CurrentUvcFormatType
   name: CurrentUvcFormatType
   href: api/Models.Shared.ConfigProfileDeviceModel.html#Models_Shared_ConfigProfileDeviceModel_CurrentUvcFormatType
@@ -1145,6 +1106,200 @@ references:
   isSpec: "True"
   fullName: Models.Shared.ConfigProfileDeviceModel.Multisource
   nameWithType: ConfigProfileDeviceModel.Multisource
+- uid: Models.Shared.ConfigProfileDjiModel
+  name: ConfigProfileDjiModel
+  href: api/Models.Shared.ConfigProfileDjiModel.html
+  commentId: T:Models.Shared.ConfigProfileDjiModel
+  fullName: Models.Shared.ConfigProfileDjiModel
+  nameWithType: ConfigProfileDjiModel
+- uid: Models.Shared.ConfigProfileDjiModel.Device
+  name: ConfigProfileDjiModel.Device
+  href: api/Models.Shared.ConfigProfileDjiModel.Device.html
+  commentId: T:Models.Shared.ConfigProfileDjiModel.Device
+  fullName: Models.Shared.ConfigProfileDjiModel.Device
+  nameWithType: ConfigProfileDjiModel.Device
+- uid: Models.Shared.ConfigProfileDjiModel.Device.AutoSetting
+  name: AutoSetting
+  href: api/Models.Shared.ConfigProfileDjiModel.Device.html#Models_Shared_ConfigProfileDjiModel_Device_AutoSetting
+  commentId: P:Models.Shared.ConfigProfileDjiModel.Device.AutoSetting
+  fullName: Models.Shared.ConfigProfileDjiModel.Device.AutoSetting
+  nameWithType: ConfigProfileDjiModel.Device.AutoSetting
+- uid: Models.Shared.ConfigProfileDjiModel.Device.AutoSetting*
+  name: AutoSetting
+  href: api/Models.Shared.ConfigProfileDjiModel.Device.html#Models_Shared_ConfigProfileDjiModel_Device_AutoSetting_
+  commentId: Overload:Models.Shared.ConfigProfileDjiModel.Device.AutoSetting
+  isSpec: "True"
+  fullName: Models.Shared.ConfigProfileDjiModel.Device.AutoSetting
+  nameWithType: ConfigProfileDjiModel.Device.AutoSetting
+- uid: Models.Shared.ConfigProfileDjiModel.Device.BitrateTarget
+  name: BitrateTarget
+  href: api/Models.Shared.ConfigProfileDjiModel.Device.html#Models_Shared_ConfigProfileDjiModel_Device_BitrateTarget
+  commentId: P:Models.Shared.ConfigProfileDjiModel.Device.BitrateTarget
+  fullName: Models.Shared.ConfigProfileDjiModel.Device.BitrateTarget
+  nameWithType: ConfigProfileDjiModel.Device.BitrateTarget
+- uid: Models.Shared.ConfigProfileDjiModel.Device.BitrateTarget*
+  name: BitrateTarget
+  href: api/Models.Shared.ConfigProfileDjiModel.Device.html#Models_Shared_ConfigProfileDjiModel_Device_BitrateTarget_
+  commentId: Overload:Models.Shared.ConfigProfileDjiModel.Device.BitrateTarget
+  isSpec: "True"
+  fullName: Models.Shared.ConfigProfileDjiModel.Device.BitrateTarget
+  nameWithType: ConfigProfileDjiModel.Device.BitrateTarget
+- uid: Models.Shared.ConfigProfileDjiModel.Device.DeviceAddress
+  name: DeviceAddress
+  href: api/Models.Shared.ConfigProfileDjiModel.Device.html#Models_Shared_ConfigProfileDjiModel_Device_DeviceAddress
+  commentId: P:Models.Shared.ConfigProfileDjiModel.Device.DeviceAddress
+  fullName: Models.Shared.ConfigProfileDjiModel.Device.DeviceAddress
+  nameWithType: ConfigProfileDjiModel.Device.DeviceAddress
+- uid: Models.Shared.ConfigProfileDjiModel.Device.DeviceAddress*
+  name: DeviceAddress
+  href: api/Models.Shared.ConfigProfileDjiModel.Device.html#Models_Shared_ConfigProfileDjiModel_Device_DeviceAddress_
+  commentId: Overload:Models.Shared.ConfigProfileDjiModel.Device.DeviceAddress
+  isSpec: "True"
+  fullName: Models.Shared.ConfigProfileDjiModel.Device.DeviceAddress
+  nameWithType: ConfigProfileDjiModel.Device.DeviceAddress
+- uid: Models.Shared.ConfigProfileDjiModel.Device.DeviceFullName
+  name: DeviceFullName
+  href: api/Models.Shared.ConfigProfileDjiModel.Device.html#Models_Shared_ConfigProfileDjiModel_Device_DeviceFullName
+  commentId: P:Models.Shared.ConfigProfileDjiModel.Device.DeviceFullName
+  fullName: Models.Shared.ConfigProfileDjiModel.Device.DeviceFullName
+  nameWithType: ConfigProfileDjiModel.Device.DeviceFullName
+- uid: Models.Shared.ConfigProfileDjiModel.Device.DeviceFullName*
+  name: DeviceFullName
+  href: api/Models.Shared.ConfigProfileDjiModel.Device.html#Models_Shared_ConfigProfileDjiModel_Device_DeviceFullName_
+  commentId: Overload:Models.Shared.ConfigProfileDjiModel.Device.DeviceFullName
+  isSpec: "True"
+  fullName: Models.Shared.ConfigProfileDjiModel.Device.DeviceFullName
+  nameWithType: ConfigProfileDjiModel.Device.DeviceFullName
+- uid: Models.Shared.ConfigProfileDjiModel.Device.DeviceIsActive
+  name: DeviceIsActive
+  href: api/Models.Shared.ConfigProfileDjiModel.Device.html#Models_Shared_ConfigProfileDjiModel_Device_DeviceIsActive
+  commentId: P:Models.Shared.ConfigProfileDjiModel.Device.DeviceIsActive
+  fullName: Models.Shared.ConfigProfileDjiModel.Device.DeviceIsActive
+  nameWithType: ConfigProfileDjiModel.Device.DeviceIsActive
+- uid: Models.Shared.ConfigProfileDjiModel.Device.DeviceIsActive*
+  name: DeviceIsActive
+  href: api/Models.Shared.ConfigProfileDjiModel.Device.html#Models_Shared_ConfigProfileDjiModel_Device_DeviceIsActive_
+  commentId: Overload:Models.Shared.ConfigProfileDjiModel.Device.DeviceIsActive
+  isSpec: "True"
+  fullName: Models.Shared.ConfigProfileDjiModel.Device.DeviceIsActive
+  nameWithType: ConfigProfileDjiModel.Device.DeviceIsActive
+- uid: Models.Shared.ConfigProfileDjiModel.Device.DeviceModelEnum
+  name: DeviceModelEnum
+  href: api/Models.Shared.ConfigProfileDjiModel.Device.html#Models_Shared_ConfigProfileDjiModel_Device_DeviceModelEnum
+  commentId: P:Models.Shared.ConfigProfileDjiModel.Device.DeviceModelEnum
+  fullName: Models.Shared.ConfigProfileDjiModel.Device.DeviceModelEnum
+  nameWithType: ConfigProfileDjiModel.Device.DeviceModelEnum
+- uid: Models.Shared.ConfigProfileDjiModel.Device.DeviceModelEnum*
+  name: DeviceModelEnum
+  href: api/Models.Shared.ConfigProfileDjiModel.Device.html#Models_Shared_ConfigProfileDjiModel_Device_DeviceModelEnum_
+  commentId: Overload:Models.Shared.ConfigProfileDjiModel.Device.DeviceModelEnum
+  isSpec: "True"
+  fullName: Models.Shared.ConfigProfileDjiModel.Device.DeviceModelEnum
+  nameWithType: ConfigProfileDjiModel.Device.DeviceModelEnum
+- uid: Models.Shared.ConfigProfileDjiModel.Device.EisEnum
+  name: EisEnum
+  href: api/Models.Shared.ConfigProfileDjiModel.Device.html#Models_Shared_ConfigProfileDjiModel_Device_EisEnum
+  commentId: P:Models.Shared.ConfigProfileDjiModel.Device.EisEnum
+  fullName: Models.Shared.ConfigProfileDjiModel.Device.EisEnum
+  nameWithType: ConfigProfileDjiModel.Device.EisEnum
+- uid: Models.Shared.ConfigProfileDjiModel.Device.EisEnum*
+  name: EisEnum
+  href: api/Models.Shared.ConfigProfileDjiModel.Device.html#Models_Shared_ConfigProfileDjiModel_Device_EisEnum_
+  commentId: Overload:Models.Shared.ConfigProfileDjiModel.Device.EisEnum
+  isSpec: "True"
+  fullName: Models.Shared.ConfigProfileDjiModel.Device.EisEnum
+  nameWithType: ConfigProfileDjiModel.Device.EisEnum
+- uid: Models.Shared.ConfigProfileDjiModel.Device.FourDigitPinCode
+  name: FourDigitPinCode
+  href: api/Models.Shared.ConfigProfileDjiModel.Device.html#Models_Shared_ConfigProfileDjiModel_Device_FourDigitPinCode
+  commentId: P:Models.Shared.ConfigProfileDjiModel.Device.FourDigitPinCode
+  fullName: Models.Shared.ConfigProfileDjiModel.Device.FourDigitPinCode
+  nameWithType: ConfigProfileDjiModel.Device.FourDigitPinCode
+- uid: Models.Shared.ConfigProfileDjiModel.Device.FourDigitPinCode*
+  name: FourDigitPinCode
+  href: api/Models.Shared.ConfigProfileDjiModel.Device.html#Models_Shared_ConfigProfileDjiModel_Device_FourDigitPinCode_
+  commentId: Overload:Models.Shared.ConfigProfileDjiModel.Device.FourDigitPinCode
+  isSpec: "True"
+  fullName: Models.Shared.ConfigProfileDjiModel.Device.FourDigitPinCode
+  nameWithType: ConfigProfileDjiModel.Device.FourDigitPinCode
+- uid: Models.Shared.ConfigProfileDjiModel.Device.FpsEnum
+  name: FpsEnum
+  href: api/Models.Shared.ConfigProfileDjiModel.Device.html#Models_Shared_ConfigProfileDjiModel_Device_FpsEnum
+  commentId: P:Models.Shared.ConfigProfileDjiModel.Device.FpsEnum
+  fullName: Models.Shared.ConfigProfileDjiModel.Device.FpsEnum
+  nameWithType: ConfigProfileDjiModel.Device.FpsEnum
+- uid: Models.Shared.ConfigProfileDjiModel.Device.FpsEnum*
+  name: FpsEnum
+  href: api/Models.Shared.ConfigProfileDjiModel.Device.html#Models_Shared_ConfigProfileDjiModel_Device_FpsEnum_
+  commentId: Overload:Models.Shared.ConfigProfileDjiModel.Device.FpsEnum
+  isSpec: "True"
+  fullName: Models.Shared.ConfigProfileDjiModel.Device.FpsEnum
+  nameWithType: ConfigProfileDjiModel.Device.FpsEnum
+- uid: Models.Shared.ConfigProfileDjiModel.Device.ResolutionEnum
+  name: ResolutionEnum
+  href: api/Models.Shared.ConfigProfileDjiModel.Device.html#Models_Shared_ConfigProfileDjiModel_Device_ResolutionEnum
+  commentId: P:Models.Shared.ConfigProfileDjiModel.Device.ResolutionEnum
+  fullName: Models.Shared.ConfigProfileDjiModel.Device.ResolutionEnum
+  nameWithType: ConfigProfileDjiModel.Device.ResolutionEnum
+- uid: Models.Shared.ConfigProfileDjiModel.Device.ResolutionEnum*
+  name: ResolutionEnum
+  href: api/Models.Shared.ConfigProfileDjiModel.Device.html#Models_Shared_ConfigProfileDjiModel_Device_ResolutionEnum_
+  commentId: Overload:Models.Shared.ConfigProfileDjiModel.Device.ResolutionEnum
+  isSpec: "True"
+  fullName: Models.Shared.ConfigProfileDjiModel.Device.ResolutionEnum
+  nameWithType: ConfigProfileDjiModel.Device.ResolutionEnum
+- uid: Models.Shared.ConfigProfileDjiModel.Device.UsedNonBondingIp
+  name: UsedNonBondingIp
+  href: api/Models.Shared.ConfigProfileDjiModel.Device.html#Models_Shared_ConfigProfileDjiModel_Device_UsedNonBondingIp
+  commentId: P:Models.Shared.ConfigProfileDjiModel.Device.UsedNonBondingIp
+  fullName: Models.Shared.ConfigProfileDjiModel.Device.UsedNonBondingIp
+  nameWithType: ConfigProfileDjiModel.Device.UsedNonBondingIp
+- uid: Models.Shared.ConfigProfileDjiModel.Device.UsedNonBondingIp*
+  name: UsedNonBondingIp
+  href: api/Models.Shared.ConfigProfileDjiModel.Device.html#Models_Shared_ConfigProfileDjiModel_Device_UsedNonBondingIp_
+  commentId: Overload:Models.Shared.ConfigProfileDjiModel.Device.UsedNonBondingIp
+  isSpec: "True"
+  fullName: Models.Shared.ConfigProfileDjiModel.Device.UsedNonBondingIp
+  nameWithType: ConfigProfileDjiModel.Device.UsedNonBondingIp
+- uid: Models.Shared.ConfigProfileDjiModel.Device.WifiPassword
+  name: WifiPassword
+  href: api/Models.Shared.ConfigProfileDjiModel.Device.html#Models_Shared_ConfigProfileDjiModel_Device_WifiPassword
+  commentId: P:Models.Shared.ConfigProfileDjiModel.Device.WifiPassword
+  fullName: Models.Shared.ConfigProfileDjiModel.Device.WifiPassword
+  nameWithType: ConfigProfileDjiModel.Device.WifiPassword
+- uid: Models.Shared.ConfigProfileDjiModel.Device.WifiPassword*
+  name: WifiPassword
+  href: api/Models.Shared.ConfigProfileDjiModel.Device.html#Models_Shared_ConfigProfileDjiModel_Device_WifiPassword_
+  commentId: Overload:Models.Shared.ConfigProfileDjiModel.Device.WifiPassword
+  isSpec: "True"
+  fullName: Models.Shared.ConfigProfileDjiModel.Device.WifiPassword
+  nameWithType: ConfigProfileDjiModel.Device.WifiPassword
+- uid: Models.Shared.ConfigProfileDjiModel.Device.WifiSsid
+  name: WifiSsid
+  href: api/Models.Shared.ConfigProfileDjiModel.Device.html#Models_Shared_ConfigProfileDjiModel_Device_WifiSsid
+  commentId: P:Models.Shared.ConfigProfileDjiModel.Device.WifiSsid
+  fullName: Models.Shared.ConfigProfileDjiModel.Device.WifiSsid
+  nameWithType: ConfigProfileDjiModel.Device.WifiSsid
+- uid: Models.Shared.ConfigProfileDjiModel.Device.WifiSsid*
+  name: WifiSsid
+  href: api/Models.Shared.ConfigProfileDjiModel.Device.html#Models_Shared_ConfigProfileDjiModel_Device_WifiSsid_
+  commentId: Overload:Models.Shared.ConfigProfileDjiModel.Device.WifiSsid
+  isSpec: "True"
+  fullName: Models.Shared.ConfigProfileDjiModel.Device.WifiSsid
+  nameWithType: ConfigProfileDjiModel.Device.WifiSsid
+- uid: Models.Shared.ConfigProfileDjiModel.Devices
+  name: Devices
+  href: api/Models.Shared.ConfigProfileDjiModel.html#Models_Shared_ConfigProfileDjiModel_Devices
+  commentId: P:Models.Shared.ConfigProfileDjiModel.Devices
+  fullName: Models.Shared.ConfigProfileDjiModel.Devices
+  nameWithType: ConfigProfileDjiModel.Devices
+- uid: Models.Shared.ConfigProfileDjiModel.Devices*
+  name: Devices
+  href: api/Models.Shared.ConfigProfileDjiModel.html#Models_Shared_ConfigProfileDjiModel_Devices_
+  commentId: Overload:Models.Shared.ConfigProfileDjiModel.Devices
+  isSpec: "True"
+  fullName: Models.Shared.ConfigProfileDjiModel.Devices
+  nameWithType: ConfigProfileDjiModel.Devices
 - uid: Models.Shared.ConfigProfileModel
   name: ConfigProfileModel
   href: api/Models.Shared.ConfigProfileModel.html
@@ -1190,6 +1345,19 @@ references:
   isSpec: "True"
   fullName: Models.Shared.ConfigProfileModel.DeviceSettings
   nameWithType: ConfigProfileModel.DeviceSettings
+- uid: Models.Shared.ConfigProfileModel.DjiSettings
+  name: DjiSettings
+  href: api/Models.Shared.ConfigProfileModel.html#Models_Shared_ConfigProfileModel_DjiSettings
+  commentId: P:Models.Shared.ConfigProfileModel.DjiSettings
+  fullName: Models.Shared.ConfigProfileModel.DjiSettings
+  nameWithType: ConfigProfileModel.DjiSettings
+- uid: Models.Shared.ConfigProfileModel.DjiSettings*
+  name: DjiSettings
+  href: api/Models.Shared.ConfigProfileModel.html#Models_Shared_ConfigProfileModel_DjiSettings_
+  commentId: Overload:Models.Shared.ConfigProfileModel.DjiSettings
+  isSpec: "True"
+  fullName: Models.Shared.ConfigProfileModel.DjiSettings
+  nameWithType: ConfigProfileModel.DjiSettings
 - uid: Models.Shared.ConfigProfileModel.OtherSettings
   name: OtherSettings
   href: api/Models.Shared.ConfigProfileModel.html#Models_Shared_ConfigProfileModel_OtherSettings
@@ -1559,6 +1727,19 @@ references:
   isSpec: "True"
   fullName: Models.Shared.ConfigProfileSrtlaModel.Latency
   nameWithType: ConfigProfileSrtlaModel.Latency
+- uid: Models.Shared.ConfigProfileSrtlaModel.SrtlaAdvanced
+  name: SrtlaAdvanced
+  href: api/Models.Shared.ConfigProfileSrtlaModel.html#Models_Shared_ConfigProfileSrtlaModel_SrtlaAdvanced
+  commentId: P:Models.Shared.ConfigProfileSrtlaModel.SrtlaAdvanced
+  fullName: Models.Shared.ConfigProfileSrtlaModel.SrtlaAdvanced
+  nameWithType: ConfigProfileSrtlaModel.SrtlaAdvanced
+- uid: Models.Shared.ConfigProfileSrtlaModel.SrtlaAdvanced*
+  name: SrtlaAdvanced
+  href: api/Models.Shared.ConfigProfileSrtlaModel.html#Models_Shared_ConfigProfileSrtlaModel_SrtlaAdvanced_
+  commentId: Overload:Models.Shared.ConfigProfileSrtlaModel.SrtlaAdvanced
+  isSpec: "True"
+  fullName: Models.Shared.ConfigProfileSrtlaModel.SrtlaAdvanced
+  nameWithType: ConfigProfileSrtlaModel.SrtlaAdvanced
 - uid: Models.Shared.ConfigProfileUiModel
   name: ConfigProfileUiModel
   href: api/Models.Shared.ConfigProfileUiModel.html
