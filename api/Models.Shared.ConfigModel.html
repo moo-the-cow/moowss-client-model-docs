@@ -1,675 +1,824 @@
 <!DOCTYPE html>
-<!--[if IE]><![endif]-->
 <html>
-
   <head>
     <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
       <title>Class ConfigModel </title>
-      <meta name="viewport" content="width=device-width">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class ConfigModel ">
-    
-    
-      <link rel="shortcut icon" href="../favicon.ico">
-      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
-      <link rel="stylesheet" href="../styles/docfx.css">
-      <link rel="stylesheet" href="../styles/main.css">
-      <meta property="docfx:navrel" content="">
-      <meta property="docfx:tocrel" content="toc.html">
-    
-    
-    
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
-    <div id="wrapper">
-      <header>
 
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="">
-              </a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
-              </form>
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
             </div>
           </div>
-        </nav>
+        </div>
+      </nav>
+    </header>
 
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
           </div>
         </div>
-      </header>
-      <div role="main" class="container body-content hide-when-search">
+      </div>
 
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
-          </div>
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
         </div>
-        <div class="article row grid-right">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Models.Shared.ConfigModel">
+
+        <article data-uid="Models.Shared.ConfigModel">
 
 
 
-  <h1 id="Models_Shared_ConfigModel" data-uid="Models.Shared.ConfigModel" class="text-break">Class ConfigModel</h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">object</span></div>
-    <div class="level1"><span class="xref">ConfigModel</span></div>
+  <h1 id="Models_Shared_ConfigModel" data-uid="Models.Shared.ConfigModel" class="text-break">
+Class ConfigModel  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Models.html">Models</a>.<a class="xref" href="Models.Shared.html">Shared</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>moowss-client.dll</dd></dl>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Models.html">Models</a>.<a class="xref" href="Models.Shared.html">Shared</a></h6>
-  <h6><strong>Assembly</strong>: moowss-client.dll</h6>
-  <h5 id="Models_Shared_ConfigModel_syntax">Syntax</h5>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class ConfigModel</code></pre>
   </div>
-  <h3 id="properties">Properties
-</h3>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><span class="xref">object</span></div>
+      <div><span class="xref">ConfigModel</span></div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
 
 
   <a id="Models_Shared_ConfigModel_ActiveProfile_" data-uid="Models.Shared.ConfigModel.ActiveProfile*"></a>
-  <h4 id="Models_Shared_ConfigModel_ActiveProfile" data-uid="Models.Shared.ConfigModel.ActiveProfile">ActiveProfile</h4>
+
+  <h3 id="Models_Shared_ConfigModel_ActiveProfile" data-uid="Models.Shared.ConfigModel.ActiveProfile">
+  ActiveProfile
+  
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;ActiveProfile&quot;)]
 public string ActiveProfile { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">string</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
 
 
   <a id="Models_Shared_ConfigModel_BitrateSettings_" data-uid="Models.Shared.ConfigModel.BitrateSettings*"></a>
-  <h4 id="Models_Shared_ConfigModel_BitrateSettings" data-uid="Models.Shared.ConfigModel.BitrateSettings">BitrateSettings</h4>
+
+  <h3 id="Models_Shared_ConfigModel_BitrateSettings" data-uid="Models.Shared.ConfigModel.BitrateSettings">
+  BitrateSettings
+  
+  </h3>
+
   <div class="markdown level1 summary"><p>Bitrate Settings</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;BitrateSettings&quot;)]
 public ConfigBitrateModel BitrateSettings { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Models.Shared.ConfigBitrateModel.html">ConfigBitrateModel</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Models.Shared.ConfigBitrateModel.html">ConfigBitrateModel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
 
 
   <a id="Models_Shared_ConfigModel_BoardName_" data-uid="Models.Shared.ConfigModel.BoardName*"></a>
-  <h4 id="Models_Shared_ConfigModel_BoardName" data-uid="Models.Shared.ConfigModel.BoardName">BoardName</h4>
+
+  <h3 id="Models_Shared_ConfigModel_BoardName" data-uid="Models.Shared.ConfigModel.BoardName">
+  BoardName
+  
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;BoardName&quot;)]
 public string BoardName { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">string</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
 
 
   <a id="Models_Shared_ConfigModel_BoardVersion_" data-uid="Models.Shared.ConfigModel.BoardVersion*"></a>
-  <h4 id="Models_Shared_ConfigModel_BoardVersion" data-uid="Models.Shared.ConfigModel.BoardVersion">BoardVersion</h4>
+
+  <h3 id="Models_Shared_ConfigModel_BoardVersion" data-uid="Models.Shared.ConfigModel.BoardVersion">
+  BoardVersion
+  
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;BoardVersion&quot;)]
 public string BoardVersion { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">string</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
 
 
   <a id="Models_Shared_ConfigModel_ConfigVersion_" data-uid="Models.Shared.ConfigModel.ConfigVersion*"></a>
-  <h4 id="Models_Shared_ConfigModel_ConfigVersion" data-uid="Models.Shared.ConfigModel.ConfigVersion">ConfigVersion</h4>
+
+  <h3 id="Models_Shared_ConfigModel_ConfigVersion" data-uid="Models.Shared.ConfigModel.ConfigVersion">
+  ConfigVersion
+  
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;ConfigVersion&quot;)]
 public double ConfigVersion { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">double</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">double</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
 
 
   <a id="Models_Shared_ConfigModel_CurrentRepoIsStable_" data-uid="Models.Shared.ConfigModel.CurrentRepoIsStable*"></a>
-  <h4 id="Models_Shared_ConfigModel_CurrentRepoIsStable" data-uid="Models.Shared.ConfigModel.CurrentRepoIsStable">CurrentRepoIsStable</h4>
+
+  <h3 id="Models_Shared_ConfigModel_CurrentRepoIsStable" data-uid="Models.Shared.ConfigModel.CurrentRepoIsStable">
+  CurrentRepoIsStable
+  
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;CurrentRepo&quot;)]
 public bool CurrentRepoIsStable { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">bool</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
 
 
   <a id="Models_Shared_ConfigModel_DockerSettings_" data-uid="Models.Shared.ConfigModel.DockerSettings*"></a>
-  <h4 id="Models_Shared_ConfigModel_DockerSettings" data-uid="Models.Shared.ConfigModel.DockerSettings">DockerSettings</h4>
+
+  <h3 id="Models_Shared_ConfigModel_DockerSettings" data-uid="Models.Shared.ConfigModel.DockerSettings">
+  DockerSettings
+  
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;DockerSettings&quot;)]
 public ConfigDockerModel DockerSettings { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Models.Shared.ConfigDockerModel.html">ConfigDockerModel</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Models.Shared.ConfigDockerModel.html">ConfigDockerModel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
 
 
   <a id="Models_Shared_ConfigModel_ExternalDriveName_" data-uid="Models.Shared.ConfigModel.ExternalDriveName*"></a>
-  <h4 id="Models_Shared_ConfigModel_ExternalDriveName" data-uid="Models.Shared.ConfigModel.ExternalDriveName">ExternalDriveName</h4>
+
+  <h3 id="Models_Shared_ConfigModel_ExternalDriveName" data-uid="Models.Shared.ConfigModel.ExternalDriveName">
+  ExternalDriveName
+  
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;ExternalDriveName&quot;)]
 public string ExternalDriveName { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">string</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
 
 
   <a id="Models_Shared_ConfigModel_MoblinkSettings_" data-uid="Models.Shared.ConfigModel.MoblinkSettings*"></a>
-  <h4 id="Models_Shared_ConfigModel_MoblinkSettings" data-uid="Models.Shared.ConfigModel.MoblinkSettings">MoblinkSettings</h4>
+
+  <h3 id="Models_Shared_ConfigModel_MoblinkSettings" data-uid="Models.Shared.ConfigModel.MoblinkSettings">
+  MoblinkSettings
+  
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;MoblinkSettings&quot;)]
 public ConfigMoblinkModel MoblinkSettings { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Models.Shared.ConfigMoblinkModel.html">ConfigMoblinkModel</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Models.Shared.ConfigMoblinkModel.html">ConfigMoblinkModel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
 
 
   <a id="Models_Shared_ConfigModel_ModemListSettings_" data-uid="Models.Shared.ConfigModel.ModemListSettings*"></a>
-  <h4 id="Models_Shared_ConfigModel_ModemListSettings" data-uid="Models.Shared.ConfigModel.ModemListSettings">ModemListSettings</h4>
+
+  <h3 id="Models_Shared_ConfigModel_ModemListSettings" data-uid="Models.Shared.ConfigModel.ModemListSettings">
+  ModemListSettings
+  
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;ModemSettings&quot;)]
 public List&lt;ConfigModemModel&gt; ModemListSettings { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">List</span>&lt;<a class="xref" href="Models.Shared.ConfigModemModel.html">ConfigModemModel</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">List</span>&lt;<a class="xref" href="Models.Shared.ConfigModemModel.html">ConfigModemModel</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
 
 
   <a id="Models_Shared_ConfigModel_NetworkInterfaces_" data-uid="Models.Shared.ConfigModel.NetworkInterfaces*"></a>
-  <h4 id="Models_Shared_ConfigModel_NetworkInterfaces" data-uid="Models.Shared.ConfigModel.NetworkInterfaces">NetworkInterfaces</h4>
+
+  <h3 id="Models_Shared_ConfigModel_NetworkInterfaces" data-uid="Models.Shared.ConfigModel.NetworkInterfaces">
+  NetworkInterfaces
+  
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;NetworkInterfaces&quot;)]
 public NetworkInterfaceObject[] NetworkInterfaces { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">NetworkInterfaceObject</span>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">NetworkInterfaceObject</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
 
 
   <a id="Models_Shared_ConfigModel_NetworkSettings_" data-uid="Models.Shared.ConfigModel.NetworkSettings*"></a>
-  <h4 id="Models_Shared_ConfigModel_NetworkSettings" data-uid="Models.Shared.ConfigModel.NetworkSettings">NetworkSettings</h4>
+
+  <h3 id="Models_Shared_ConfigModel_NetworkSettings" data-uid="Models.Shared.ConfigModel.NetworkSettings">
+  NetworkSettings
+  
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;NetworkSettings&quot;)]
 public ConfigNetworkModel NetworkSettings { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Models.Shared.ConfigNetworkModel.html">ConfigNetworkModel</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Models.Shared.ConfigNetworkModel.html">ConfigNetworkModel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
 
 
   <a id="Models_Shared_ConfigModel_OtherSettings_" data-uid="Models.Shared.ConfigModel.OtherSettings*"></a>
-  <h4 id="Models_Shared_ConfigModel_OtherSettings" data-uid="Models.Shared.ConfigModel.OtherSettings">OtherSettings</h4>
+
+  <h3 id="Models_Shared_ConfigModel_OtherSettings" data-uid="Models.Shared.ConfigModel.OtherSettings">
+  OtherSettings
+  
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;OtherSettings&quot;)]
 public ConfigOtherModel OtherSettings { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Models.Shared.ConfigOtherModel.html">ConfigOtherModel</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Models.Shared.ConfigOtherModel.html">ConfigOtherModel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
 
 
   <a id="Models_Shared_ConfigModel_PipelineSettings_" data-uid="Models.Shared.ConfigModel.PipelineSettings*"></a>
-  <h4 id="Models_Shared_ConfigModel_PipelineSettings" data-uid="Models.Shared.ConfigModel.PipelineSettings">PipelineSettings</h4>
+
+  <h3 id="Models_Shared_ConfigModel_PipelineSettings" data-uid="Models.Shared.ConfigModel.PipelineSettings">
+  PipelineSettings
+  
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;PipelineSettings&quot;)]
 public ConfigPipelineModel PipelineSettings { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Models.Shared.ConfigPipelineModel.html">ConfigPipelineModel</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Models.Shared.ConfigPipelineModel.html">ConfigPipelineModel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
 
 
   <a id="Models_Shared_ConfigModel_RemoteControl_" data-uid="Models.Shared.ConfigModel.RemoteControl*"></a>
-  <h4 id="Models_Shared_ConfigModel_RemoteControl" data-uid="Models.Shared.ConfigModel.RemoteControl">RemoteControl</h4>
+
+  <h3 id="Models_Shared_ConfigModel_RemoteControl" data-uid="Models.Shared.ConfigModel.RemoteControl">
+  RemoteControl
+  
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;RemoteControl&quot;)]
 public bool RemoteControl { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">bool</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
 
 
   <a id="Models_Shared_ConfigModel_RemoteHubToken_" data-uid="Models.Shared.ConfigModel.RemoteHubToken*"></a>
-  <h4 id="Models_Shared_ConfigModel_RemoteHubToken" data-uid="Models.Shared.ConfigModel.RemoteHubToken">RemoteHubToken</h4>
+
+  <h3 id="Models_Shared_ConfigModel_RemoteHubToken" data-uid="Models.Shared.ConfigModel.RemoteHubToken">
+  RemoteHubToken
+  
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Length(32, 32, ErrorMessage = &quot;The board key has to be exactly 32 characters and must not be modified&quot;)]
 [Required(ErrorMessage = &quot;Your board id is missing, try to restore it from your backup config otherwise flash the board&quot;)]
 [JsonPropertyName(&quot;RemoteHubToken&quot;)]
 public string RemoteHubToken { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">string</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
 
 
   <a id="Models_Shared_ConfigModel_RemoteHubUrl_" data-uid="Models.Shared.ConfigModel.RemoteHubUrl*"></a>
-  <h4 id="Models_Shared_ConfigModel_RemoteHubUrl" data-uid="Models.Shared.ConfigModel.RemoteHubUrl">RemoteHubUrl</h4>
+
+  <h3 id="Models_Shared_ConfigModel_RemoteHubUrl" data-uid="Models.Shared.ConfigModel.RemoteHubUrl">
+  RemoteHubUrl
+  
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;RemoteHubUrl&quot;)]
 public string RemoteHubUrl { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">string</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
 
 
   <a id="Models_Shared_ConfigModel_VersionsModel_" data-uid="Models.Shared.ConfigModel.VersionsModel*"></a>
-  <h4 id="Models_Shared_ConfigModel_VersionsModel" data-uid="Models.Shared.ConfigModel.VersionsModel">VersionsModel</h4>
+
+  <h3 id="Models_Shared_ConfigModel_VersionsModel" data-uid="Models.Shared.ConfigModel.VersionsModel">
+  VersionsModel
+  
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;ClientVersions&quot;)]
 public VersionsModel VersionsModel { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">VersionsModel</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">VersionsModel</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
 
 
   <a id="Models_Shared_ConfigModel_VideoSettings_" data-uid="Models.Shared.ConfigModel.VideoSettings*"></a>
-  <h4 id="Models_Shared_ConfigModel_VideoSettings" data-uid="Models.Shared.ConfigModel.VideoSettings">VideoSettings</h4>
+
+  <h3 id="Models_Shared_ConfigModel_VideoSettings" data-uid="Models.Shared.ConfigModel.VideoSettings">
+  VideoSettings
+  
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;VideoSettings&quot;)]
 public ConfigVideoModel VideoSettings { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Models.Shared.ConfigVideoModel.html">ConfigVideoModel</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Models.Shared.ConfigVideoModel.html">ConfigVideoModel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
 
 
   <a id="Models_Shared_ConfigModel_WifiList_" data-uid="Models.Shared.ConfigModel.WifiList*"></a>
-  <h4 id="Models_Shared_ConfigModel_WifiList" data-uid="Models.Shared.ConfigModel.WifiList">WifiList</h4>
+
+  <h3 id="Models_Shared_ConfigModel_WifiList" data-uid="Models.Shared.ConfigModel.WifiList">
+  WifiList
+  
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;WifiList&quot;)]
 public WifiModel.Wifi[] WifiList { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Wifi</span>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Wifi</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
 
 
   <a id="Models_Shared_ConfigModel_WifiSettings_" data-uid="Models.Shared.ConfigModel.WifiSettings*"></a>
-  <h4 id="Models_Shared_ConfigModel_WifiSettings" data-uid="Models.Shared.ConfigModel.WifiSettings">WifiSettings</h4>
+
+  <h3 id="Models_Shared_ConfigModel_WifiSettings" data-uid="Models.Shared.ConfigModel.WifiSettings">
+  WifiSettings
+  
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;WifiSettings&quot;)]
 public ConfigWifiModel WifiSettings { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Models.Shared.ConfigWifiModel.html">ConfigWifiModel</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Models.Shared.ConfigWifiModel.html">ConfigWifiModel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
 
 </article>
-          </div>
 
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                </ul>
-              </div>
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In this article</h5>
-                <div></div>
-              </nav>
-            </div>
-          </div>
+        <div class="contribution d-print-none">
         </div>
+
+
       </div>
 
-      <footer>
-        <div class="grad-bottom"></div>
-        <div class="footer">
-          <div class="container">
-            <span class="pull-right">
-              <a href="#top">Back to top</a>
-            </span>
-      
-      <span>Generated by <strong>DocFX</strong></span>
-          </div>
-        </div>
-      </footer>
-    </div>
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
 
-    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
