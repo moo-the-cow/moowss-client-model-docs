@@ -353,6 +353,398 @@
       "Summary": null
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/moowss_client.Enums.AudioAlertExtensionTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/moowss_client.Enums.AudioAlertExtensionTypeEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "moowss_client.Enums.AudioAlertExtensionTypeEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/moowss_client.Enums.AudioAlertTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/moowss_client.Enums.AudioAlertTypeEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "moowss_client.Enums.AudioAlertTypeEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/moowss_client.Enums.AudioChannelOutputEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/moowss_client.Enums.AudioChannelOutputEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "moowss_client.Enums.AudioChannelOutputEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/moowss_client.Enums.AudioCodecEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/moowss_client.Enums.AudioCodecEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "moowss_client.Enums.AudioCodecEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/moowss_client.Enums.AudioRateEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/moowss_client.Enums.AudioRateEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "moowss_client.Enums.AudioRateEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/moowss_client.Enums.BoardNamesEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/moowss_client.Enums.BoardNamesEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "moowss_client.Enums.BoardNamesEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/moowss_client.Enums.ClaimTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/moowss_client.Enums.ClaimTypeEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "moowss_client.Enums.ClaimTypeEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/moowss_client.Enums.CongestionControlEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/moowss_client.Enums.CongestionControlEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "moowss_client.Enums.CongestionControlEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/moowss_client.Enums.DjiEisEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/moowss_client.Enums.DjiEisEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "moowss_client.Enums.DjiEisEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/moowss_client.Enums.DjiFpsEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/moowss_client.Enums.DjiFpsEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "moowss_client.Enums.DjiFpsEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/moowss_client.Enums.DjiModelEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/moowss_client.Enums.DjiModelEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "moowss_client.Enums.DjiModelEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/moowss_client.Enums.DjiResolutionEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/moowss_client.Enums.DjiResolutionEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "moowss_client.Enums.DjiResolutionEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/moowss_client.Enums.FormatTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/moowss_client.Enums.FormatTypeEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "moowss_client.Enums.FormatTypeEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/moowss_client.Enums.LedColorsBehaviorEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/moowss_client.Enums.LedColorsBehaviorEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "moowss_client.Enums.LedColorsBehaviorEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/moowss_client.Enums.MultisourcePositionEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/moowss_client.Enums.MultisourcePositionEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "moowss_client.Enums.MultisourcePositionEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/moowss_client.Enums.PipelineCategoryEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/moowss_client.Enums.PipelineCategoryEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "moowss_client.Enums.PipelineCategoryEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/moowss_client.Enums.PolicyEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/moowss_client.Enums.PolicyEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "moowss_client.Enums.PolicyEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/moowss_client.Enums.ProtocolEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/moowss_client.Enums.ProtocolEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "moowss_client.Enums.ProtocolEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/moowss_client.Enums.RistTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/moowss_client.Enums.RistTypeEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "moowss_client.Enums.RistTypeEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/moowss_client.Enums.RoleTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/moowss_client.Enums.RoleTypeEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "moowss_client.Enums.RoleTypeEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/moowss_client.Enums.TimingModeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/moowss_client.Enums.TimingModeEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "moowss_client.Enums.TimingModeEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/moowss_client.Enums.VideoFormatsEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/moowss_client.Enums.VideoFormatsEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "moowss_client.Enums.VideoFormatsEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/moowss_client.Enums.WifiFrequenciesEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/moowss_client.Enums.WifiFrequenciesEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "moowss_client.Enums.WifiFrequenciesEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/moowss_client.Enums.WifiHotspotSecurityEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/moowss_client.Enums.WifiHotspotSecurityEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "moowss_client.Enums.WifiHotspotSecurityEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/moowss_client.Enums.WifiOrderEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/moowss_client.Enums.WifiOrderEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "moowss_client.Enums.WifiOrderEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/moowss_client.Enums.WifiSecurityEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/moowss_client.Enums.WifiSecurityEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "moowss_client.Enums.WifiSecurityEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/moowss_client.Enums.WifiSignalEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/moowss_client.Enums.WifiSignalEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "moowss_client.Enums.WifiSignalEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/moowss_client.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/moowss_client.Enums.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "moowss_client.Enums",
+      "Summary": null
+    },
+    {
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
