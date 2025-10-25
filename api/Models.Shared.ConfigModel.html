@@ -316,6 +316,38 @@ public bool CurrentRepoIsStable { get; set; }</code></pre>
 
 
 
+  <a id="Models_Shared_ConfigModel_DiskEnlarged_" data-uid="Models.Shared.ConfigModel.DiskEnlarged*"></a>
+
+  <h3 id="Models_Shared_ConfigModel_DiskEnlarged" data-uid="Models.Shared.ConfigModel.DiskEnlarged">
+  DiskEnlarged
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;DiskEnlarged&quot;)]
+public bool DiskEnlarged { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Models_Shared_ConfigModel_DockerSettings_" data-uid="Models.Shared.ConfigModel.DockerSettings*"></a>
 
   <h3 id="Models_Shared_ConfigModel_DockerSettings" data-uid="Models.Shared.ConfigModel.DockerSettings">
@@ -370,6 +402,38 @@ public string ExternalDriveName { get; set; }</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Models_Shared_ConfigModel_IrlBridgeSettings_" data-uid="Models.Shared.ConfigModel.IrlBridgeSettings*"></a>
+
+  <h3 id="Models_Shared_ConfigModel_IrlBridgeSettings" data-uid="Models.Shared.ConfigModel.IrlBridgeSettings">
+  IrlBridgeSettings
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;IrlBridgeSettings&quot;)]
+public ConfigIrlBridgeModel IrlBridgeSettings { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Models.Shared.ConfigIrlBridgeModel.html">ConfigIrlBridgeModel</a></dt>
     <dd></dd>
   </dl>
 
@@ -615,9 +679,7 @@ public bool RemoteControl { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Length(32, 32, ErrorMessage = &quot;The board key has to be exactly 32 characters and must not be modified&quot;)]
-[Required(ErrorMessage = &quot;Your board id is missing, try to restore it from your backup config otherwise flash the board&quot;)]
-[JsonPropertyName(&quot;RemoteHubToken&quot;)]
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;RemoteHubToken&quot;)]
 public string RemoteHubToken { get; set; }</code></pre>
   </div>
 
@@ -660,6 +722,70 @@ public string RemoteHubUrl { get; set; }</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Models_Shared_ConfigModel_RootFsDevicePath_" data-uid="Models.Shared.ConfigModel.RootFsDevicePath*"></a>
+
+  <h3 id="Models_Shared_ConfigModel_RootFsDevicePath" data-uid="Models.Shared.ConfigModel.RootFsDevicePath">
+  RootFsDevicePath
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;RootFsDevicePath&quot;)]
+public string RootFsDevicePath { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Models_Shared_ConfigModel_SrtlaDownloaded_" data-uid="Models.Shared.ConfigModel.SrtlaDownloaded*"></a>
+
+  <h3 id="Models_Shared_ConfigModel_SrtlaDownloaded" data-uid="Models.Shared.ConfigModel.SrtlaDownloaded">
+  SrtlaDownloaded
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;SrtlaDownloaded&quot;)]
+public bool SrtlaDownloaded { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">bool</span></dt>
     <dd></dd>
   </dl>
 

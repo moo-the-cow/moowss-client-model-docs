@@ -84,6 +84,116 @@ references:
   isSpec: "True"
   fullName: Models.Shared.ConfigDockerModel.NoVncChromiumEnabled
   nameWithType: ConfigDockerModel.NoVncChromiumEnabled
+- uid: Models.Shared.ConfigIrlBridgeModel
+  name: ConfigIrlBridgeModel
+  href: api/Models.Shared.ConfigIrlBridgeModel.html
+  commentId: T:Models.Shared.ConfigIrlBridgeModel
+  fullName: Models.Shared.ConfigIrlBridgeModel
+  nameWithType: ConfigIrlBridgeModel
+- uid: Models.Shared.ConfigIrlBridgeModel.AudioVolume
+  name: AudioVolume
+  href: api/Models.Shared.ConfigIrlBridgeModel.html#Models_Shared_ConfigIrlBridgeModel_AudioVolume
+  commentId: P:Models.Shared.ConfigIrlBridgeModel.AudioVolume
+  fullName: Models.Shared.ConfigIrlBridgeModel.AudioVolume
+  nameWithType: ConfigIrlBridgeModel.AudioVolume
+- uid: Models.Shared.ConfigIrlBridgeModel.AudioVolume*
+  name: AudioVolume
+  href: api/Models.Shared.ConfigIrlBridgeModel.html#Models_Shared_ConfigIrlBridgeModel_AudioVolume_
+  commentId: Overload:Models.Shared.ConfigIrlBridgeModel.AudioVolume
+  isSpec: "True"
+  fullName: Models.Shared.ConfigIrlBridgeModel.AudioVolume
+  nameWithType: ConfigIrlBridgeModel.AudioVolume
+- uid: Models.Shared.ConfigIrlBridgeModel.IrlboxUrl
+  name: IrlboxUrl
+  href: api/Models.Shared.ConfigIrlBridgeModel.html#Models_Shared_ConfigIrlBridgeModel_IrlboxUrl
+  commentId: P:Models.Shared.ConfigIrlBridgeModel.IrlboxUrl
+  fullName: Models.Shared.ConfigIrlBridgeModel.IrlboxUrl
+  nameWithType: ConfigIrlBridgeModel.IrlboxUrl
+- uid: Models.Shared.ConfigIrlBridgeModel.IrlboxUrl*
+  name: IrlboxUrl
+  href: api/Models.Shared.ConfigIrlBridgeModel.html#Models_Shared_ConfigIrlBridgeModel_IrlboxUrl_
+  commentId: Overload:Models.Shared.ConfigIrlBridgeModel.IrlboxUrl
+  isSpec: "True"
+  fullName: Models.Shared.ConfigIrlBridgeModel.IrlboxUrl
+  nameWithType: ConfigIrlBridgeModel.IrlboxUrl
+- uid: Models.Shared.ConfigIrlBridgeModel.NoAudio
+  name: NoAudio
+  href: api/Models.Shared.ConfigIrlBridgeModel.html#Models_Shared_ConfigIrlBridgeModel_NoAudio
+  commentId: P:Models.Shared.ConfigIrlBridgeModel.NoAudio
+  fullName: Models.Shared.ConfigIrlBridgeModel.NoAudio
+  nameWithType: ConfigIrlBridgeModel.NoAudio
+- uid: Models.Shared.ConfigIrlBridgeModel.NoAudio*
+  name: NoAudio
+  href: api/Models.Shared.ConfigIrlBridgeModel.html#Models_Shared_ConfigIrlBridgeModel_NoAudio_
+  commentId: Overload:Models.Shared.ConfigIrlBridgeModel.NoAudio
+  isSpec: "True"
+  fullName: Models.Shared.ConfigIrlBridgeModel.NoAudio
+  nameWithType: ConfigIrlBridgeModel.NoAudio
+- uid: Models.Shared.ConfigIrlBridgeModel.NoVideo
+  name: NoVideo
+  href: api/Models.Shared.ConfigIrlBridgeModel.html#Models_Shared_ConfigIrlBridgeModel_NoVideo
+  commentId: P:Models.Shared.ConfigIrlBridgeModel.NoVideo
+  fullName: Models.Shared.ConfigIrlBridgeModel.NoVideo
+  nameWithType: ConfigIrlBridgeModel.NoVideo
+- uid: Models.Shared.ConfigIrlBridgeModel.NoVideo*
+  name: NoVideo
+  href: api/Models.Shared.ConfigIrlBridgeModel.html#Models_Shared_ConfigIrlBridgeModel_NoVideo_
+  commentId: Overload:Models.Shared.ConfigIrlBridgeModel.NoVideo
+  isSpec: "True"
+  fullName: Models.Shared.ConfigIrlBridgeModel.NoVideo
+  nameWithType: ConfigIrlBridgeModel.NoVideo
+- uid: Models.Shared.ConfigIrlBridgeModel.RtmpStreamKey
+  name: RtmpStreamKey
+  href: api/Models.Shared.ConfigIrlBridgeModel.html#Models_Shared_ConfigIrlBridgeModel_RtmpStreamKey
+  commentId: P:Models.Shared.ConfigIrlBridgeModel.RtmpStreamKey
+  fullName: Models.Shared.ConfigIrlBridgeModel.RtmpStreamKey
+  nameWithType: ConfigIrlBridgeModel.RtmpStreamKey
+- uid: Models.Shared.ConfigIrlBridgeModel.RtmpStreamKey*
+  name: RtmpStreamKey
+  href: api/Models.Shared.ConfigIrlBridgeModel.html#Models_Shared_ConfigIrlBridgeModel_RtmpStreamKey_
+  commentId: Overload:Models.Shared.ConfigIrlBridgeModel.RtmpStreamKey
+  isSpec: "True"
+  fullName: Models.Shared.ConfigIrlBridgeModel.RtmpStreamKey
+  nameWithType: ConfigIrlBridgeModel.RtmpStreamKey
+- uid: Models.Shared.ConfigIrlBridgeModel.SrtStreamKey
+  name: SrtStreamKey
+  href: api/Models.Shared.ConfigIrlBridgeModel.html#Models_Shared_ConfigIrlBridgeModel_SrtStreamKey
+  commentId: P:Models.Shared.ConfigIrlBridgeModel.SrtStreamKey
+  fullName: Models.Shared.ConfigIrlBridgeModel.SrtStreamKey
+  nameWithType: ConfigIrlBridgeModel.SrtStreamKey
+- uid: Models.Shared.ConfigIrlBridgeModel.SrtStreamKey*
+  name: SrtStreamKey
+  href: api/Models.Shared.ConfigIrlBridgeModel.html#Models_Shared_ConfigIrlBridgeModel_SrtStreamKey_
+  commentId: Overload:Models.Shared.ConfigIrlBridgeModel.SrtStreamKey
+  isSpec: "True"
+  fullName: Models.Shared.ConfigIrlBridgeModel.SrtStreamKey
+  nameWithType: ConfigIrlBridgeModel.SrtStreamKey
+- uid: Models.Shared.ConfigIrlBridgeModel.Standalone
+  name: Standalone
+  href: api/Models.Shared.ConfigIrlBridgeModel.html#Models_Shared_ConfigIrlBridgeModel_Standalone
+  commentId: P:Models.Shared.ConfigIrlBridgeModel.Standalone
+  fullName: Models.Shared.ConfigIrlBridgeModel.Standalone
+  nameWithType: ConfigIrlBridgeModel.Standalone
+- uid: Models.Shared.ConfigIrlBridgeModel.Standalone*
+  name: Standalone
+  href: api/Models.Shared.ConfigIrlBridgeModel.html#Models_Shared_ConfigIrlBridgeModel_Standalone_
+  commentId: Overload:Models.Shared.ConfigIrlBridgeModel.Standalone
+  isSpec: "True"
+  fullName: Models.Shared.ConfigIrlBridgeModel.Standalone
+  nameWithType: ConfigIrlBridgeModel.Standalone
+- uid: Models.Shared.ConfigIrlBridgeModel.UvcDevicePath
+  name: UvcDevicePath
+  href: api/Models.Shared.ConfigIrlBridgeModel.html#Models_Shared_ConfigIrlBridgeModel_UvcDevicePath
+  commentId: P:Models.Shared.ConfigIrlBridgeModel.UvcDevicePath
+  fullName: Models.Shared.ConfigIrlBridgeModel.UvcDevicePath
+  nameWithType: ConfigIrlBridgeModel.UvcDevicePath
+- uid: Models.Shared.ConfigIrlBridgeModel.UvcDevicePath*
+  name: UvcDevicePath
+  href: api/Models.Shared.ConfigIrlBridgeModel.html#Models_Shared_ConfigIrlBridgeModel_UvcDevicePath_
+  commentId: Overload:Models.Shared.ConfigIrlBridgeModel.UvcDevicePath
+  isSpec: "True"
+  fullName: Models.Shared.ConfigIrlBridgeModel.UvcDevicePath
+  nameWithType: ConfigIrlBridgeModel.UvcDevicePath
 - uid: Models.Shared.ConfigMoblinkModel
   name: ConfigMoblinkModel
   href: api/Models.Shared.ConfigMoblinkModel.html
@@ -355,6 +465,19 @@ references:
   isSpec: "True"
   fullName: Models.Shared.ConfigModel.CurrentRepoIsStable
   nameWithType: ConfigModel.CurrentRepoIsStable
+- uid: Models.Shared.ConfigModel.DiskEnlarged
+  name: DiskEnlarged
+  href: api/Models.Shared.ConfigModel.html#Models_Shared_ConfigModel_DiskEnlarged
+  commentId: P:Models.Shared.ConfigModel.DiskEnlarged
+  fullName: Models.Shared.ConfigModel.DiskEnlarged
+  nameWithType: ConfigModel.DiskEnlarged
+- uid: Models.Shared.ConfigModel.DiskEnlarged*
+  name: DiskEnlarged
+  href: api/Models.Shared.ConfigModel.html#Models_Shared_ConfigModel_DiskEnlarged_
+  commentId: Overload:Models.Shared.ConfigModel.DiskEnlarged
+  isSpec: "True"
+  fullName: Models.Shared.ConfigModel.DiskEnlarged
+  nameWithType: ConfigModel.DiskEnlarged
 - uid: Models.Shared.ConfigModel.DockerSettings
   name: DockerSettings
   href: api/Models.Shared.ConfigModel.html#Models_Shared_ConfigModel_DockerSettings
@@ -381,6 +504,19 @@ references:
   isSpec: "True"
   fullName: Models.Shared.ConfigModel.ExternalDriveName
   nameWithType: ConfigModel.ExternalDriveName
+- uid: Models.Shared.ConfigModel.IrlBridgeSettings
+  name: IrlBridgeSettings
+  href: api/Models.Shared.ConfigModel.html#Models_Shared_ConfigModel_IrlBridgeSettings
+  commentId: P:Models.Shared.ConfigModel.IrlBridgeSettings
+  fullName: Models.Shared.ConfigModel.IrlBridgeSettings
+  nameWithType: ConfigModel.IrlBridgeSettings
+- uid: Models.Shared.ConfigModel.IrlBridgeSettings*
+  name: IrlBridgeSettings
+  href: api/Models.Shared.ConfigModel.html#Models_Shared_ConfigModel_IrlBridgeSettings_
+  commentId: Overload:Models.Shared.ConfigModel.IrlBridgeSettings
+  isSpec: "True"
+  fullName: Models.Shared.ConfigModel.IrlBridgeSettings
+  nameWithType: ConfigModel.IrlBridgeSettings
 - uid: Models.Shared.ConfigModel.MoblinkSettings
   name: MoblinkSettings
   href: api/Models.Shared.ConfigModel.html#Models_Shared_ConfigModel_MoblinkSettings
@@ -498,6 +634,32 @@ references:
   isSpec: "True"
   fullName: Models.Shared.ConfigModel.RemoteHubUrl
   nameWithType: ConfigModel.RemoteHubUrl
+- uid: Models.Shared.ConfigModel.RootFsDevicePath
+  name: RootFsDevicePath
+  href: api/Models.Shared.ConfigModel.html#Models_Shared_ConfigModel_RootFsDevicePath
+  commentId: P:Models.Shared.ConfigModel.RootFsDevicePath
+  fullName: Models.Shared.ConfigModel.RootFsDevicePath
+  nameWithType: ConfigModel.RootFsDevicePath
+- uid: Models.Shared.ConfigModel.RootFsDevicePath*
+  name: RootFsDevicePath
+  href: api/Models.Shared.ConfigModel.html#Models_Shared_ConfigModel_RootFsDevicePath_
+  commentId: Overload:Models.Shared.ConfigModel.RootFsDevicePath
+  isSpec: "True"
+  fullName: Models.Shared.ConfigModel.RootFsDevicePath
+  nameWithType: ConfigModel.RootFsDevicePath
+- uid: Models.Shared.ConfigModel.SrtlaDownloaded
+  name: SrtlaDownloaded
+  href: api/Models.Shared.ConfigModel.html#Models_Shared_ConfigModel_SrtlaDownloaded
+  commentId: P:Models.Shared.ConfigModel.SrtlaDownloaded
+  fullName: Models.Shared.ConfigModel.SrtlaDownloaded
+  nameWithType: ConfigModel.SrtlaDownloaded
+- uid: Models.Shared.ConfigModel.SrtlaDownloaded*
+  name: SrtlaDownloaded
+  href: api/Models.Shared.ConfigModel.html#Models_Shared_ConfigModel_SrtlaDownloaded_
+  commentId: Overload:Models.Shared.ConfigModel.SrtlaDownloaded
+  isSpec: "True"
+  fullName: Models.Shared.ConfigModel.SrtlaDownloaded
+  nameWithType: ConfigModel.SrtlaDownloaded
 - uid: Models.Shared.ConfigModel.VersionsModel
   name: VersionsModel
   href: api/Models.Shared.ConfigModel.html#Models_Shared_ConfigModel_VersionsModel
@@ -1209,6 +1371,19 @@ references:
   isSpec: "True"
   fullName: Models.Shared.ConfigProfileDjiModel.Device.EisEnum
   nameWithType: ConfigProfileDjiModel.Device.EisEnum
+- uid: Models.Shared.ConfigProfileDjiModel.Device.Enabled
+  name: Enabled
+  href: api/Models.Shared.ConfigProfileDjiModel.Device.html#Models_Shared_ConfigProfileDjiModel_Device_Enabled
+  commentId: P:Models.Shared.ConfigProfileDjiModel.Device.Enabled
+  fullName: Models.Shared.ConfigProfileDjiModel.Device.Enabled
+  nameWithType: ConfigProfileDjiModel.Device.Enabled
+- uid: Models.Shared.ConfigProfileDjiModel.Device.Enabled*
+  name: Enabled
+  href: api/Models.Shared.ConfigProfileDjiModel.Device.html#Models_Shared_ConfigProfileDjiModel_Device_Enabled_
+  commentId: Overload:Models.Shared.ConfigProfileDjiModel.Device.Enabled
+  isSpec: "True"
+  fullName: Models.Shared.ConfigProfileDjiModel.Device.Enabled
+  nameWithType: ConfigProfileDjiModel.Device.Enabled
 - uid: Models.Shared.ConfigProfileDjiModel.Device.FourDigitPinCode
   name: FourDigitPinCode
   href: api/Models.Shared.ConfigProfileDjiModel.Device.html#Models_Shared_ConfigProfileDjiModel_Device_FourDigitPinCode
@@ -1695,6 +1870,32 @@ references:
   isSpec: "True"
   fullName: Models.Shared.ConfigProfileRistModel.RttSettings
   nameWithType: ConfigProfileRistModel.RttSettings
+- uid: Models.Shared.ConfigProfileRistModel.UserName
+  name: UserName
+  href: api/Models.Shared.ConfigProfileRistModel.html#Models_Shared_ConfigProfileRistModel_UserName
+  commentId: P:Models.Shared.ConfigProfileRistModel.UserName
+  fullName: Models.Shared.ConfigProfileRistModel.UserName
+  nameWithType: ConfigProfileRistModel.UserName
+- uid: Models.Shared.ConfigProfileRistModel.UserName*
+  name: UserName
+  href: api/Models.Shared.ConfigProfileRistModel.html#Models_Shared_ConfigProfileRistModel_UserName_
+  commentId: Overload:Models.Shared.ConfigProfileRistModel.UserName
+  isSpec: "True"
+  fullName: Models.Shared.ConfigProfileRistModel.UserName
+  nameWithType: ConfigProfileRistModel.UserName
+- uid: Models.Shared.ConfigProfileRistModel.UserPassword
+  name: UserPassword
+  href: api/Models.Shared.ConfigProfileRistModel.html#Models_Shared_ConfigProfileRistModel_UserPassword
+  commentId: P:Models.Shared.ConfigProfileRistModel.UserPassword
+  fullName: Models.Shared.ConfigProfileRistModel.UserPassword
+  nameWithType: ConfigProfileRistModel.UserPassword
+- uid: Models.Shared.ConfigProfileRistModel.UserPassword*
+  name: UserPassword
+  href: api/Models.Shared.ConfigProfileRistModel.html#Models_Shared_ConfigProfileRistModel_UserPassword_
+  commentId: Overload:Models.Shared.ConfigProfileRistModel.UserPassword
+  isSpec: "True"
+  fullName: Models.Shared.ConfigProfileRistModel.UserPassword
+  nameWithType: ConfigProfileRistModel.UserPassword
 - uid: Models.Shared.ConfigProfileSrtlaModel
   name: ConfigProfileSrtlaModel
   href: api/Models.Shared.ConfigProfileSrtlaModel.html
@@ -1746,6 +1947,19 @@ references:
   commentId: T:Models.Shared.ConfigProfileUiModel
   fullName: Models.Shared.ConfigProfileUiModel
   nameWithType: ConfigProfileUiModel
+- uid: Models.Shared.ConfigProfileUiModel.ThemeContrast
+  name: ThemeContrast
+  href: api/Models.Shared.ConfigProfileUiModel.html#Models_Shared_ConfigProfileUiModel_ThemeContrast
+  commentId: P:Models.Shared.ConfigProfileUiModel.ThemeContrast
+  fullName: Models.Shared.ConfigProfileUiModel.ThemeContrast
+  nameWithType: ConfigProfileUiModel.ThemeContrast
+- uid: Models.Shared.ConfigProfileUiModel.ThemeContrast*
+  name: ThemeContrast
+  href: api/Models.Shared.ConfigProfileUiModel.html#Models_Shared_ConfigProfileUiModel_ThemeContrast_
+  commentId: Overload:Models.Shared.ConfigProfileUiModel.ThemeContrast
+  isSpec: "True"
+  fullName: Models.Shared.ConfigProfileUiModel.ThemeContrast
+  nameWithType: ConfigProfileUiModel.ThemeContrast
 - uid: Models.Shared.ConfigProfileUiModel.ThemeName
   name: ThemeName
   href: api/Models.Shared.ConfigProfileUiModel.html#Models_Shared_ConfigProfileUiModel_ThemeName
@@ -1778,6 +1992,19 @@ references:
   isSpec: "True"
   fullName: Models.Shared.ConfigProfileVideoModel.EncoderVideoRotation
   nameWithType: ConfigProfileVideoModel.EncoderVideoRotation
+- uid: Models.Shared.ConfigProfileVideoModel.VideoEncoding
+  name: VideoEncoding
+  href: api/Models.Shared.ConfigProfileVideoModel.html#Models_Shared_ConfigProfileVideoModel_VideoEncoding
+  commentId: P:Models.Shared.ConfigProfileVideoModel.VideoEncoding
+  fullName: Models.Shared.ConfigProfileVideoModel.VideoEncoding
+  nameWithType: ConfigProfileVideoModel.VideoEncoding
+- uid: Models.Shared.ConfigProfileVideoModel.VideoEncoding*
+  name: VideoEncoding
+  href: api/Models.Shared.ConfigProfileVideoModel.html#Models_Shared_ConfigProfileVideoModel_VideoEncoding_
+  commentId: Overload:Models.Shared.ConfigProfileVideoModel.VideoEncoding
+  isSpec: "True"
+  fullName: Models.Shared.ConfigProfileVideoModel.VideoEncoding
+  nameWithType: ConfigProfileVideoModel.VideoEncoding
 - uid: Models.Shared.ConfigProfileVideoModel.VideoPipLargeFlip
   name: VideoPipLargeFlip
   href: api/Models.Shared.ConfigProfileVideoModel.html#Models_Shared_ConfigProfileVideoModel_VideoPipLargeFlip
@@ -1791,19 +2018,19 @@ references:
   isSpec: "True"
   fullName: Models.Shared.ConfigProfileVideoModel.VideoPipLargeFlip
   nameWithType: ConfigProfileVideoModel.VideoPipLargeFlip
-- uid: Models.Shared.ConfigProfileVideoModel.VideoPipSmallFlip
-  name: VideoPipSmallFlip
-  href: api/Models.Shared.ConfigProfileVideoModel.html#Models_Shared_ConfigProfileVideoModel_VideoPipSmallFlip
-  commentId: P:Models.Shared.ConfigProfileVideoModel.VideoPipSmallFlip
-  fullName: Models.Shared.ConfigProfileVideoModel.VideoPipSmallFlip
-  nameWithType: ConfigProfileVideoModel.VideoPipSmallFlip
-- uid: Models.Shared.ConfigProfileVideoModel.VideoPipSmallFlip*
-  name: VideoPipSmallFlip
-  href: api/Models.Shared.ConfigProfileVideoModel.html#Models_Shared_ConfigProfileVideoModel_VideoPipSmallFlip_
-  commentId: Overload:Models.Shared.ConfigProfileVideoModel.VideoPipSmallFlip
+- uid: Models.Shared.ConfigProfileVideoModel.VideoPipSmallFlipList
+  name: VideoPipSmallFlipList
+  href: api/Models.Shared.ConfigProfileVideoModel.html#Models_Shared_ConfigProfileVideoModel_VideoPipSmallFlipList
+  commentId: P:Models.Shared.ConfigProfileVideoModel.VideoPipSmallFlipList
+  fullName: Models.Shared.ConfigProfileVideoModel.VideoPipSmallFlipList
+  nameWithType: ConfigProfileVideoModel.VideoPipSmallFlipList
+- uid: Models.Shared.ConfigProfileVideoModel.VideoPipSmallFlipList*
+  name: VideoPipSmallFlipList
+  href: api/Models.Shared.ConfigProfileVideoModel.html#Models_Shared_ConfigProfileVideoModel_VideoPipSmallFlipList_
+  commentId: Overload:Models.Shared.ConfigProfileVideoModel.VideoPipSmallFlipList
   isSpec: "True"
-  fullName: Models.Shared.ConfigProfileVideoModel.VideoPipSmallFlip
-  nameWithType: ConfigProfileVideoModel.VideoPipSmallFlip
+  fullName: Models.Shared.ConfigProfileVideoModel.VideoPipSmallFlipList
+  nameWithType: ConfigProfileVideoModel.VideoPipSmallFlipList
 - uid: Models.Shared.ConfigVideoModel
   name: ConfigVideoModel
   href: api/Models.Shared.ConfigVideoModel.html
@@ -1836,6 +2063,19 @@ references:
   isSpec: "True"
   fullName: Models.Shared.ConfigVideoModel.AdditionalVideoFpsList
   nameWithType: ConfigVideoModel.AdditionalVideoFpsList
+- uid: Models.Shared.ConfigVideoModel.AdditionalVideoOutputList
+  name: AdditionalVideoOutputList
+  href: api/Models.Shared.ConfigVideoModel.html#Models_Shared_ConfigVideoModel_AdditionalVideoOutputList
+  commentId: P:Models.Shared.ConfigVideoModel.AdditionalVideoOutputList
+  fullName: Models.Shared.ConfigVideoModel.AdditionalVideoOutputList
+  nameWithType: ConfigVideoModel.AdditionalVideoOutputList
+- uid: Models.Shared.ConfigVideoModel.AdditionalVideoOutputList*
+  name: AdditionalVideoOutputList
+  href: api/Models.Shared.ConfigVideoModel.html#Models_Shared_ConfigVideoModel_AdditionalVideoOutputList_
+  commentId: Overload:Models.Shared.ConfigVideoModel.AdditionalVideoOutputList
+  isSpec: "True"
+  fullName: Models.Shared.ConfigVideoModel.AdditionalVideoOutputList
+  nameWithType: ConfigVideoModel.AdditionalVideoOutputList
 - uid: Models.Shared.ConfigVideoModel.AdditionalVideoResolutionList
   name: AdditionalVideoResolutionList
   href: api/Models.Shared.ConfigVideoModel.html#Models_Shared_ConfigVideoModel_AdditionalVideoResolutionList
@@ -2036,6 +2276,536 @@ references:
   isSpec: "True"
   fullName: Models.Shared.ConfigWifiModel.HotspotOptionsModel.Signal
   nameWithType: ConfigWifiModel.HotspotOptionsModel.Signal
+- uid: Models.Shared.RistStatsReceiverModel
+  name: RistStatsReceiverModel
+  href: api/Models.Shared.RistStatsReceiverModel.html
+  commentId: T:Models.Shared.RistStatsReceiverModel
+  fullName: Models.Shared.RistStatsReceiverModel
+  nameWithType: RistStatsReceiverModel
+- uid: Models.Shared.RistStatsReceiverModel.FlowInstant
+  name: RistStatsReceiverModel.FlowInstant
+  href: api/Models.Shared.RistStatsReceiverModel.FlowInstant.html
+  commentId: T:Models.Shared.RistStatsReceiverModel.FlowInstant
+  fullName: Models.Shared.RistStatsReceiverModel.FlowInstant
+  nameWithType: RistStatsReceiverModel.FlowInstant
+- uid: Models.Shared.RistStatsReceiverModel.FlowInstant.Dead
+  name: Dead
+  href: api/Models.Shared.RistStatsReceiverModel.FlowInstant.html#Models_Shared_RistStatsReceiverModel_FlowInstant_Dead
+  commentId: P:Models.Shared.RistStatsReceiverModel.FlowInstant.Dead
+  fullName: Models.Shared.RistStatsReceiverModel.FlowInstant.Dead
+  nameWithType: RistStatsReceiverModel.FlowInstant.Dead
+- uid: Models.Shared.RistStatsReceiverModel.FlowInstant.Dead*
+  name: Dead
+  href: api/Models.Shared.RistStatsReceiverModel.FlowInstant.html#Models_Shared_RistStatsReceiverModel_FlowInstant_Dead_
+  commentId: Overload:Models.Shared.RistStatsReceiverModel.FlowInstant.Dead
+  isSpec: "True"
+  fullName: Models.Shared.RistStatsReceiverModel.FlowInstant.Dead
+  nameWithType: RistStatsReceiverModel.FlowInstant.Dead
+- uid: Models.Shared.RistStatsReceiverModel.FlowInstant.FlowId
+  name: FlowId
+  href: api/Models.Shared.RistStatsReceiverModel.FlowInstant.html#Models_Shared_RistStatsReceiverModel_FlowInstant_FlowId
+  commentId: P:Models.Shared.RistStatsReceiverModel.FlowInstant.FlowId
+  fullName: Models.Shared.RistStatsReceiverModel.FlowInstant.FlowId
+  nameWithType: RistStatsReceiverModel.FlowInstant.FlowId
+- uid: Models.Shared.RistStatsReceiverModel.FlowInstant.FlowId*
+  name: FlowId
+  href: api/Models.Shared.RistStatsReceiverModel.FlowInstant.html#Models_Shared_RistStatsReceiverModel_FlowInstant_FlowId_
+  commentId: Overload:Models.Shared.RistStatsReceiverModel.FlowInstant.FlowId
+  isSpec: "True"
+  fullName: Models.Shared.RistStatsReceiverModel.FlowInstant.FlowId
+  nameWithType: RistStatsReceiverModel.FlowInstant.FlowId
+- uid: Models.Shared.RistStatsReceiverModel.FlowInstant.Peers
+  name: Peers
+  href: api/Models.Shared.RistStatsReceiverModel.FlowInstant.html#Models_Shared_RistStatsReceiverModel_FlowInstant_Peers
+  commentId: P:Models.Shared.RistStatsReceiverModel.FlowInstant.Peers
+  fullName: Models.Shared.RistStatsReceiverModel.FlowInstant.Peers
+  nameWithType: RistStatsReceiverModel.FlowInstant.Peers
+- uid: Models.Shared.RistStatsReceiverModel.FlowInstant.Peers*
+  name: Peers
+  href: api/Models.Shared.RistStatsReceiverModel.FlowInstant.html#Models_Shared_RistStatsReceiverModel_FlowInstant_Peers_
+  commentId: Overload:Models.Shared.RistStatsReceiverModel.FlowInstant.Peers
+  isSpec: "True"
+  fullName: Models.Shared.RistStatsReceiverModel.FlowInstant.Peers
+  nameWithType: RistStatsReceiverModel.FlowInstant.Peers
+- uid: Models.Shared.RistStatsReceiverModel.FlowInstant.Stats
+  name: Stats
+  href: api/Models.Shared.RistStatsReceiverModel.FlowInstant.html#Models_Shared_RistStatsReceiverModel_FlowInstant_Stats
+  commentId: P:Models.Shared.RistStatsReceiverModel.FlowInstant.Stats
+  fullName: Models.Shared.RistStatsReceiverModel.FlowInstant.Stats
+  nameWithType: RistStatsReceiverModel.FlowInstant.Stats
+- uid: Models.Shared.RistStatsReceiverModel.FlowInstant.Stats*
+  name: Stats
+  href: api/Models.Shared.RistStatsReceiverModel.FlowInstant.html#Models_Shared_RistStatsReceiverModel_FlowInstant_Stats_
+  commentId: Overload:Models.Shared.RistStatsReceiverModel.FlowInstant.Stats
+  isSpec: "True"
+  fullName: Models.Shared.RistStatsReceiverModel.FlowInstant.Stats
+  nameWithType: RistStatsReceiverModel.FlowInstant.Stats
+- uid: Models.Shared.RistStatsReceiverModel.PeerStats
+  name: RistStatsReceiverModel.PeerStats
+  href: api/Models.Shared.RistStatsReceiverModel.PeerStats.html
+  commentId: T:Models.Shared.RistStatsReceiverModel.PeerStats
+  fullName: Models.Shared.RistStatsReceiverModel.PeerStats
+  nameWithType: RistStatsReceiverModel.PeerStats
+- uid: Models.Shared.RistStatsReceiverModel.PeerStats.AvgBitrate
+  name: AvgBitrate
+  href: api/Models.Shared.RistStatsReceiverModel.PeerStats.html#Models_Shared_RistStatsReceiverModel_PeerStats_AvgBitrate
+  commentId: P:Models.Shared.RistStatsReceiverModel.PeerStats.AvgBitrate
+  fullName: Models.Shared.RistStatsReceiverModel.PeerStats.AvgBitrate
+  nameWithType: RistStatsReceiverModel.PeerStats.AvgBitrate
+- uid: Models.Shared.RistStatsReceiverModel.PeerStats.AvgBitrate*
+  name: AvgBitrate
+  href: api/Models.Shared.RistStatsReceiverModel.PeerStats.html#Models_Shared_RistStatsReceiverModel_PeerStats_AvgBitrate_
+  commentId: Overload:Models.Shared.RistStatsReceiverModel.PeerStats.AvgBitrate
+  isSpec: "True"
+  fullName: Models.Shared.RistStatsReceiverModel.PeerStats.AvgBitrate
+  nameWithType: RistStatsReceiverModel.PeerStats.AvgBitrate
+- uid: Models.Shared.RistStatsReceiverModel.PeerStats.AvgRtt
+  name: AvgRtt
+  href: api/Models.Shared.RistStatsReceiverModel.PeerStats.html#Models_Shared_RistStatsReceiverModel_PeerStats_AvgRtt
+  commentId: P:Models.Shared.RistStatsReceiverModel.PeerStats.AvgRtt
+  fullName: Models.Shared.RistStatsReceiverModel.PeerStats.AvgRtt
+  nameWithType: RistStatsReceiverModel.PeerStats.AvgRtt
+- uid: Models.Shared.RistStatsReceiverModel.PeerStats.AvgRtt*
+  name: AvgRtt
+  href: api/Models.Shared.RistStatsReceiverModel.PeerStats.html#Models_Shared_RistStatsReceiverModel_PeerStats_AvgRtt_
+  commentId: Overload:Models.Shared.RistStatsReceiverModel.PeerStats.AvgRtt
+  isSpec: "True"
+  fullName: Models.Shared.RistStatsReceiverModel.PeerStats.AvgRtt
+  nameWithType: RistStatsReceiverModel.PeerStats.AvgRtt
+- uid: Models.Shared.RistStatsReceiverModel.PeerStats.Bitrate
+  name: Bitrate
+  href: api/Models.Shared.RistStatsReceiverModel.PeerStats.html#Models_Shared_RistStatsReceiverModel_PeerStats_Bitrate
+  commentId: P:Models.Shared.RistStatsReceiverModel.PeerStats.Bitrate
+  fullName: Models.Shared.RistStatsReceiverModel.PeerStats.Bitrate
+  nameWithType: RistStatsReceiverModel.PeerStats.Bitrate
+- uid: Models.Shared.RistStatsReceiverModel.PeerStats.Bitrate*
+  name: Bitrate
+  href: api/Models.Shared.RistStatsReceiverModel.PeerStats.html#Models_Shared_RistStatsReceiverModel_PeerStats_Bitrate_
+  commentId: Overload:Models.Shared.RistStatsReceiverModel.PeerStats.Bitrate
+  isSpec: "True"
+  fullName: Models.Shared.RistStatsReceiverModel.PeerStats.Bitrate
+  nameWithType: RistStatsReceiverModel.PeerStats.Bitrate
+- uid: Models.Shared.RistStatsReceiverModel.PeerStats.ReceivedData
+  name: ReceivedData
+  href: api/Models.Shared.RistStatsReceiverModel.PeerStats.html#Models_Shared_RistStatsReceiverModel_PeerStats_ReceivedData
+  commentId: P:Models.Shared.RistStatsReceiverModel.PeerStats.ReceivedData
+  fullName: Models.Shared.RistStatsReceiverModel.PeerStats.ReceivedData
+  nameWithType: RistStatsReceiverModel.PeerStats.ReceivedData
+- uid: Models.Shared.RistStatsReceiverModel.PeerStats.ReceivedData*
+  name: ReceivedData
+  href: api/Models.Shared.RistStatsReceiverModel.PeerStats.html#Models_Shared_RistStatsReceiverModel_PeerStats_ReceivedData_
+  commentId: Overload:Models.Shared.RistStatsReceiverModel.PeerStats.ReceivedData
+  isSpec: "True"
+  fullName: Models.Shared.RistStatsReceiverModel.PeerStats.ReceivedData
+  nameWithType: RistStatsReceiverModel.PeerStats.ReceivedData
+- uid: Models.Shared.RistStatsReceiverModel.PeerStats.ReceivedRtcp
+  name: ReceivedRtcp
+  href: api/Models.Shared.RistStatsReceiverModel.PeerStats.html#Models_Shared_RistStatsReceiverModel_PeerStats_ReceivedRtcp
+  commentId: P:Models.Shared.RistStatsReceiverModel.PeerStats.ReceivedRtcp
+  fullName: Models.Shared.RistStatsReceiverModel.PeerStats.ReceivedRtcp
+  nameWithType: RistStatsReceiverModel.PeerStats.ReceivedRtcp
+- uid: Models.Shared.RistStatsReceiverModel.PeerStats.ReceivedRtcp*
+  name: ReceivedRtcp
+  href: api/Models.Shared.RistStatsReceiverModel.PeerStats.html#Models_Shared_RistStatsReceiverModel_PeerStats_ReceivedRtcp_
+  commentId: Overload:Models.Shared.RistStatsReceiverModel.PeerStats.ReceivedRtcp
+  isSpec: "True"
+  fullName: Models.Shared.RistStatsReceiverModel.PeerStats.ReceivedRtcp
+  nameWithType: RistStatsReceiverModel.PeerStats.ReceivedRtcp
+- uid: Models.Shared.RistStatsReceiverModel.PeerStats.Rtt
+  name: Rtt
+  href: api/Models.Shared.RistStatsReceiverModel.PeerStats.html#Models_Shared_RistStatsReceiverModel_PeerStats_Rtt
+  commentId: P:Models.Shared.RistStatsReceiverModel.PeerStats.Rtt
+  fullName: Models.Shared.RistStatsReceiverModel.PeerStats.Rtt
+  nameWithType: RistStatsReceiverModel.PeerStats.Rtt
+- uid: Models.Shared.RistStatsReceiverModel.PeerStats.Rtt*
+  name: Rtt
+  href: api/Models.Shared.RistStatsReceiverModel.PeerStats.html#Models_Shared_RistStatsReceiverModel_PeerStats_Rtt_
+  commentId: Overload:Models.Shared.RistStatsReceiverModel.PeerStats.Rtt
+  isSpec: "True"
+  fullName: Models.Shared.RistStatsReceiverModel.PeerStats.Rtt
+  nameWithType: RistStatsReceiverModel.PeerStats.Rtt
+- uid: Models.Shared.RistStatsReceiverModel.PeerStats.SentRtcp
+  name: SentRtcp
+  href: api/Models.Shared.RistStatsReceiverModel.PeerStats.html#Models_Shared_RistStatsReceiverModel_PeerStats_SentRtcp
+  commentId: P:Models.Shared.RistStatsReceiverModel.PeerStats.SentRtcp
+  fullName: Models.Shared.RistStatsReceiverModel.PeerStats.SentRtcp
+  nameWithType: RistStatsReceiverModel.PeerStats.SentRtcp
+- uid: Models.Shared.RistStatsReceiverModel.PeerStats.SentRtcp*
+  name: SentRtcp
+  href: api/Models.Shared.RistStatsReceiverModel.PeerStats.html#Models_Shared_RistStatsReceiverModel_PeerStats_SentRtcp_
+  commentId: Overload:Models.Shared.RistStatsReceiverModel.PeerStats.SentRtcp
+  isSpec: "True"
+  fullName: Models.Shared.RistStatsReceiverModel.PeerStats.SentRtcp
+  nameWithType: RistStatsReceiverModel.PeerStats.SentRtcp
+- uid: Models.Shared.RistStatsReceiverModel.ReceiverStats
+  name: ReceiverStats
+  href: api/Models.Shared.RistStatsReceiverModel.html#Models_Shared_RistStatsReceiverModel_ReceiverStats
+  commentId: P:Models.Shared.RistStatsReceiverModel.ReceiverStats
+  fullName: Models.Shared.RistStatsReceiverModel.ReceiverStats
+  nameWithType: RistStatsReceiverModel.ReceiverStats
+- uid: Models.Shared.RistStatsReceiverModel.ReceiverStats*
+  name: ReceiverStats
+  href: api/Models.Shared.RistStatsReceiverModel.html#Models_Shared_RistStatsReceiverModel_ReceiverStats_
+  commentId: Overload:Models.Shared.RistStatsReceiverModel.ReceiverStats
+  isSpec: "True"
+  fullName: Models.Shared.RistStatsReceiverModel.ReceiverStats
+  nameWithType: RistStatsReceiverModel.ReceiverStats
+- uid: Models.Shared.RistStatsReceiverModel.RistStats
+  name: RistStatsReceiverModel.RistStats
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html
+  commentId: T:Models.Shared.RistStatsReceiverModel.RistStats
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats
+  nameWithType: RistStatsReceiverModel.RistStats
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.AvgBufferTime
+  name: AvgBufferTime
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_AvgBufferTime
+  commentId: P:Models.Shared.RistStatsReceiverModel.RistStats.AvgBufferTime
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.AvgBufferTime
+  nameWithType: RistStatsReceiverModel.RistStats.AvgBufferTime
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.AvgBufferTime*
+  name: AvgBufferTime
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_AvgBufferTime_
+  commentId: Overload:Models.Shared.RistStatsReceiverModel.RistStats.AvgBufferTime
+  isSpec: "True"
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.AvgBufferTime
+  nameWithType: RistStatsReceiverModel.RistStats.AvgBufferTime
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.Bitrate
+  name: Bitrate
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_Bitrate
+  commentId: P:Models.Shared.RistStatsReceiverModel.RistStats.Bitrate
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.Bitrate
+  nameWithType: RistStatsReceiverModel.RistStats.Bitrate
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.Bitrate*
+  name: Bitrate
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_Bitrate_
+  commentId: Overload:Models.Shared.RistStatsReceiverModel.RistStats.Bitrate
+  isSpec: "True"
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.Bitrate
+  nameWithType: RistStatsReceiverModel.RistStats.Bitrate
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.CurInterPacketSpacing
+  name: CurInterPacketSpacing
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_CurInterPacketSpacing
+  commentId: P:Models.Shared.RistStatsReceiverModel.RistStats.CurInterPacketSpacing
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.CurInterPacketSpacing
+  nameWithType: RistStatsReceiverModel.RistStats.CurInterPacketSpacing
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.CurInterPacketSpacing*
+  name: CurInterPacketSpacing
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_CurInterPacketSpacing_
+  commentId: Overload:Models.Shared.RistStatsReceiverModel.RistStats.CurInterPacketSpacing
+  isSpec: "True"
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.CurInterPacketSpacing
+  nameWithType: RistStatsReceiverModel.RistStats.CurInterPacketSpacing
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.DroppedFull
+  name: DroppedFull
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_DroppedFull
+  commentId: P:Models.Shared.RistStatsReceiverModel.RistStats.DroppedFull
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.DroppedFull
+  nameWithType: RistStatsReceiverModel.RistStats.DroppedFull
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.DroppedFull*
+  name: DroppedFull
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_DroppedFull_
+  commentId: Overload:Models.Shared.RistStatsReceiverModel.RistStats.DroppedFull
+  isSpec: "True"
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.DroppedFull
+  nameWithType: RistStatsReceiverModel.RistStats.DroppedFull
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.DroppedLate
+  name: DroppedLate
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_DroppedLate
+  commentId: P:Models.Shared.RistStatsReceiverModel.RistStats.DroppedLate
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.DroppedLate
+  nameWithType: RistStatsReceiverModel.RistStats.DroppedLate
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.DroppedLate*
+  name: DroppedLate
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_DroppedLate_
+  commentId: Overload:Models.Shared.RistStatsReceiverModel.RistStats.DroppedLate
+  isSpec: "True"
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.DroppedLate
+  nameWithType: RistStatsReceiverModel.RistStats.DroppedLate
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.Duplicates
+  name: Duplicates
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_Duplicates
+  commentId: P:Models.Shared.RistStatsReceiverModel.RistStats.Duplicates
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.Duplicates
+  nameWithType: RistStatsReceiverModel.RistStats.Duplicates
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.Duplicates*
+  name: Duplicates
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_Duplicates_
+  commentId: Overload:Models.Shared.RistStatsReceiverModel.RistStats.Duplicates
+  isSpec: "True"
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.Duplicates
+  nameWithType: RistStatsReceiverModel.RistStats.Duplicates
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.Lost
+  name: Lost
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_Lost
+  commentId: P:Models.Shared.RistStatsReceiverModel.RistStats.Lost
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.Lost
+  nameWithType: RistStatsReceiverModel.RistStats.Lost
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.Lost*
+  name: Lost
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_Lost_
+  commentId: Overload:Models.Shared.RistStatsReceiverModel.RistStats.Lost
+  isSpec: "True"
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.Lost
+  nameWithType: RistStatsReceiverModel.RistStats.Lost
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.MaxInterPacketSpacing
+  name: MaxInterPacketSpacing
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_MaxInterPacketSpacing
+  commentId: P:Models.Shared.RistStatsReceiverModel.RistStats.MaxInterPacketSpacing
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.MaxInterPacketSpacing
+  nameWithType: RistStatsReceiverModel.RistStats.MaxInterPacketSpacing
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.MaxInterPacketSpacing*
+  name: MaxInterPacketSpacing
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_MaxInterPacketSpacing_
+  commentId: Overload:Models.Shared.RistStatsReceiverModel.RistStats.MaxInterPacketSpacing
+  isSpec: "True"
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.MaxInterPacketSpacing
+  nameWithType: RistStatsReceiverModel.RistStats.MaxInterPacketSpacing
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.MinInterPacketSpacing
+  name: MinInterPacketSpacing
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_MinInterPacketSpacing
+  commentId: P:Models.Shared.RistStatsReceiverModel.RistStats.MinInterPacketSpacing
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.MinInterPacketSpacing
+  nameWithType: RistStatsReceiverModel.RistStats.MinInterPacketSpacing
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.MinInterPacketSpacing*
+  name: MinInterPacketSpacing
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_MinInterPacketSpacing_
+  commentId: Overload:Models.Shared.RistStatsReceiverModel.RistStats.MinInterPacketSpacing
+  isSpec: "True"
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.MinInterPacketSpacing
+  nameWithType: RistStatsReceiverModel.RistStats.MinInterPacketSpacing
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.Missing
+  name: Missing
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_Missing
+  commentId: P:Models.Shared.RistStatsReceiverModel.RistStats.Missing
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.Missing
+  nameWithType: RistStatsReceiverModel.RistStats.Missing
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.Missing*
+  name: Missing
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_Missing_
+  commentId: Overload:Models.Shared.RistStatsReceiverModel.RistStats.Missing
+  isSpec: "True"
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.Missing
+  nameWithType: RistStatsReceiverModel.RistStats.Missing
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.MissingQueue
+  name: MissingQueue
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_MissingQueue
+  commentId: P:Models.Shared.RistStatsReceiverModel.RistStats.MissingQueue
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.MissingQueue
+  nameWithType: RistStatsReceiverModel.RistStats.MissingQueue
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.MissingQueue*
+  name: MissingQueue
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_MissingQueue_
+  commentId: Overload:Models.Shared.RistStatsReceiverModel.RistStats.MissingQueue
+  isSpec: "True"
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.MissingQueue
+  nameWithType: RistStatsReceiverModel.RistStats.MissingQueue
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.MissingQueueMax
+  name: MissingQueueMax
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_MissingQueueMax
+  commentId: P:Models.Shared.RistStatsReceiverModel.RistStats.MissingQueueMax
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.MissingQueueMax
+  nameWithType: RistStatsReceiverModel.RistStats.MissingQueueMax
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.MissingQueueMax*
+  name: MissingQueueMax
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_MissingQueueMax_
+  commentId: Overload:Models.Shared.RistStatsReceiverModel.RistStats.MissingQueueMax
+  isSpec: "True"
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.MissingQueueMax
+  nameWithType: RistStatsReceiverModel.RistStats.MissingQueueMax
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.Quality
+  name: Quality
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_Quality
+  commentId: P:Models.Shared.RistStatsReceiverModel.RistStats.Quality
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.Quality
+  nameWithType: RistStatsReceiverModel.RistStats.Quality
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.Quality*
+  name: Quality
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_Quality_
+  commentId: Overload:Models.Shared.RistStatsReceiverModel.RistStats.Quality
+  isSpec: "True"
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.Quality
+  nameWithType: RistStatsReceiverModel.RistStats.Quality
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.Received
+  name: Received
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_Received
+  commentId: P:Models.Shared.RistStatsReceiverModel.RistStats.Received
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.Received
+  nameWithType: RistStatsReceiverModel.RistStats.Received
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.Received*
+  name: Received
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_Received_
+  commentId: Overload:Models.Shared.RistStatsReceiverModel.RistStats.Received
+  isSpec: "True"
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.Received
+  nameWithType: RistStatsReceiverModel.RistStats.Received
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.RecoveredFourNacks
+  name: RecoveredFourNacks
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_RecoveredFourNacks
+  commentId: P:Models.Shared.RistStatsReceiverModel.RistStats.RecoveredFourNacks
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.RecoveredFourNacks
+  nameWithType: RistStatsReceiverModel.RistStats.RecoveredFourNacks
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.RecoveredFourNacks*
+  name: RecoveredFourNacks
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_RecoveredFourNacks_
+  commentId: Overload:Models.Shared.RistStatsReceiverModel.RistStats.RecoveredFourNacks
+  isSpec: "True"
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.RecoveredFourNacks
+  nameWithType: RistStatsReceiverModel.RistStats.RecoveredFourNacks
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.RecoveredMoreNacks
+  name: RecoveredMoreNacks
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_RecoveredMoreNacks
+  commentId: P:Models.Shared.RistStatsReceiverModel.RistStats.RecoveredMoreNacks
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.RecoveredMoreNacks
+  nameWithType: RistStatsReceiverModel.RistStats.RecoveredMoreNacks
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.RecoveredMoreNacks*
+  name: RecoveredMoreNacks
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_RecoveredMoreNacks_
+  commentId: Overload:Models.Shared.RistStatsReceiverModel.RistStats.RecoveredMoreNacks
+  isSpec: "True"
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.RecoveredMoreNacks
+  nameWithType: RistStatsReceiverModel.RistStats.RecoveredMoreNacks
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.RecoveredOneNack
+  name: RecoveredOneNack
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_RecoveredOneNack
+  commentId: P:Models.Shared.RistStatsReceiverModel.RistStats.RecoveredOneNack
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.RecoveredOneNack
+  nameWithType: RistStatsReceiverModel.RistStats.RecoveredOneNack
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.RecoveredOneNack*
+  name: RecoveredOneNack
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_RecoveredOneNack_
+  commentId: Overload:Models.Shared.RistStatsReceiverModel.RistStats.RecoveredOneNack
+  isSpec: "True"
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.RecoveredOneNack
+  nameWithType: RistStatsReceiverModel.RistStats.RecoveredOneNack
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.RecoveredThreeNacks
+  name: RecoveredThreeNacks
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_RecoveredThreeNacks
+  commentId: P:Models.Shared.RistStatsReceiverModel.RistStats.RecoveredThreeNacks
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.RecoveredThreeNacks
+  nameWithType: RistStatsReceiverModel.RistStats.RecoveredThreeNacks
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.RecoveredThreeNacks*
+  name: RecoveredThreeNacks
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_RecoveredThreeNacks_
+  commentId: Overload:Models.Shared.RistStatsReceiverModel.RistStats.RecoveredThreeNacks
+  isSpec: "True"
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.RecoveredThreeNacks
+  nameWithType: RistStatsReceiverModel.RistStats.RecoveredThreeNacks
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.RecoveredTotal
+  name: RecoveredTotal
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_RecoveredTotal
+  commentId: P:Models.Shared.RistStatsReceiverModel.RistStats.RecoveredTotal
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.RecoveredTotal
+  nameWithType: RistStatsReceiverModel.RistStats.RecoveredTotal
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.RecoveredTotal*
+  name: RecoveredTotal
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_RecoveredTotal_
+  commentId: Overload:Models.Shared.RistStatsReceiverModel.RistStats.RecoveredTotal
+  isSpec: "True"
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.RecoveredTotal
+  nameWithType: RistStatsReceiverModel.RistStats.RecoveredTotal
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.RecoveredTwoNacks
+  name: RecoveredTwoNacks
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_RecoveredTwoNacks
+  commentId: P:Models.Shared.RistStatsReceiverModel.RistStats.RecoveredTwoNacks
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.RecoveredTwoNacks
+  nameWithType: RistStatsReceiverModel.RistStats.RecoveredTwoNacks
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.RecoveredTwoNacks*
+  name: RecoveredTwoNacks
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_RecoveredTwoNacks_
+  commentId: Overload:Models.Shared.RistStatsReceiverModel.RistStats.RecoveredTwoNacks
+  isSpec: "True"
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.RecoveredTwoNacks
+  nameWithType: RistStatsReceiverModel.RistStats.RecoveredTwoNacks
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.Reordered
+  name: Reordered
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_Reordered
+  commentId: P:Models.Shared.RistStatsReceiverModel.RistStats.Reordered
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.Reordered
+  nameWithType: RistStatsReceiverModel.RistStats.Reordered
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.Reordered*
+  name: Reordered
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_Reordered_
+  commentId: Overload:Models.Shared.RistStatsReceiverModel.RistStats.Reordered
+  isSpec: "True"
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.Reordered
+  nameWithType: RistStatsReceiverModel.RistStats.Reordered
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.Retries
+  name: Retries
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_Retries
+  commentId: P:Models.Shared.RistStatsReceiverModel.RistStats.Retries
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.Retries
+  nameWithType: RistStatsReceiverModel.RistStats.Retries
+- uid: Models.Shared.RistStatsReceiverModel.RistStats.Retries*
+  name: Retries
+  href: api/Models.Shared.RistStatsReceiverModel.RistStats.html#Models_Shared_RistStatsReceiverModel_RistStats_Retries_
+  commentId: Overload:Models.Shared.RistStatsReceiverModel.RistStats.Retries
+  isSpec: "True"
+  fullName: Models.Shared.RistStatsReceiverModel.RistStats.Retries
+  nameWithType: RistStatsReceiverModel.RistStats.Retries
+- uid: Models.Shared.RistStatsReceiverModel.RistStatsReceiverStats
+  name: RistStatsReceiverModel.RistStatsReceiverStats
+  href: api/Models.Shared.RistStatsReceiverModel.RistStatsReceiverStats.html
+  commentId: T:Models.Shared.RistStatsReceiverModel.RistStatsReceiverStats
+  fullName: Models.Shared.RistStatsReceiverModel.RistStatsReceiverStats
+  nameWithType: RistStatsReceiverModel.RistStatsReceiverStats
+- uid: Models.Shared.RistStatsReceiverModel.RistStatsReceiverStats.FlowInstant
+  name: FlowInstant
+  href: api/Models.Shared.RistStatsReceiverModel.RistStatsReceiverStats.html#Models_Shared_RistStatsReceiverModel_RistStatsReceiverStats_FlowInstant
+  commentId: P:Models.Shared.RistStatsReceiverModel.RistStatsReceiverStats.FlowInstant
+  fullName: Models.Shared.RistStatsReceiverModel.RistStatsReceiverStats.FlowInstant
+  nameWithType: RistStatsReceiverModel.RistStatsReceiverStats.FlowInstant
+- uid: Models.Shared.RistStatsReceiverModel.RistStatsReceiverStats.FlowInstant*
+  name: FlowInstant
+  href: api/Models.Shared.RistStatsReceiverModel.RistStatsReceiverStats.html#Models_Shared_RistStatsReceiverModel_RistStatsReceiverStats_FlowInstant_
+  commentId: Overload:Models.Shared.RistStatsReceiverModel.RistStatsReceiverStats.FlowInstant
+  isSpec: "True"
+  fullName: Models.Shared.RistStatsReceiverModel.RistStatsReceiverStats.FlowInstant
+  nameWithType: RistStatsReceiverModel.RistStatsReceiverStats.FlowInstant
+- uid: Models.Shared.RistStatsReceiverModel.RistStatsSenderPeer
+  name: RistStatsReceiverModel.RistStatsSenderPeer
+  href: api/Models.Shared.RistStatsReceiverModel.RistStatsSenderPeer.html
+  commentId: T:Models.Shared.RistStatsReceiverModel.RistStatsSenderPeer
+  fullName: Models.Shared.RistStatsReceiverModel.RistStatsSenderPeer
+  nameWithType: RistStatsReceiverModel.RistStatsSenderPeer
+- uid: Models.Shared.RistStatsReceiverModel.RistStatsSenderPeer.Dead
+  name: Dead
+  href: api/Models.Shared.RistStatsReceiverModel.RistStatsSenderPeer.html#Models_Shared_RistStatsReceiverModel_RistStatsSenderPeer_Dead
+  commentId: P:Models.Shared.RistStatsReceiverModel.RistStatsSenderPeer.Dead
+  fullName: Models.Shared.RistStatsReceiverModel.RistStatsSenderPeer.Dead
+  nameWithType: RistStatsReceiverModel.RistStatsSenderPeer.Dead
+- uid: Models.Shared.RistStatsReceiverModel.RistStatsSenderPeer.Dead*
+  name: Dead
+  href: api/Models.Shared.RistStatsReceiverModel.RistStatsSenderPeer.html#Models_Shared_RistStatsReceiverModel_RistStatsSenderPeer_Dead_
+  commentId: Overload:Models.Shared.RistStatsReceiverModel.RistStatsSenderPeer.Dead
+  isSpec: "True"
+  fullName: Models.Shared.RistStatsReceiverModel.RistStatsSenderPeer.Dead
+  nameWithType: RistStatsReceiverModel.RistStatsSenderPeer.Dead
+- uid: Models.Shared.RistStatsReceiverModel.RistStatsSenderPeer.Id
+  name: Id
+  href: api/Models.Shared.RistStatsReceiverModel.RistStatsSenderPeer.html#Models_Shared_RistStatsReceiverModel_RistStatsSenderPeer_Id
+  commentId: P:Models.Shared.RistStatsReceiverModel.RistStatsSenderPeer.Id
+  fullName: Models.Shared.RistStatsReceiverModel.RistStatsSenderPeer.Id
+  nameWithType: RistStatsReceiverModel.RistStatsSenderPeer.Id
+- uid: Models.Shared.RistStatsReceiverModel.RistStatsSenderPeer.Id*
+  name: Id
+  href: api/Models.Shared.RistStatsReceiverModel.RistStatsSenderPeer.html#Models_Shared_RistStatsReceiverModel_RistStatsSenderPeer_Id_
+  commentId: Overload:Models.Shared.RistStatsReceiverModel.RistStatsSenderPeer.Id
+  isSpec: "True"
+  fullName: Models.Shared.RistStatsReceiverModel.RistStatsSenderPeer.Id
+  nameWithType: RistStatsReceiverModel.RistStatsSenderPeer.Id
+- uid: Models.Shared.RistStatsReceiverModel.RistStatsSenderPeer.Stats
+  name: Stats
+  href: api/Models.Shared.RistStatsReceiverModel.RistStatsSenderPeer.html#Models_Shared_RistStatsReceiverModel_RistStatsSenderPeer_Stats
+  commentId: P:Models.Shared.RistStatsReceiverModel.RistStatsSenderPeer.Stats
+  fullName: Models.Shared.RistStatsReceiverModel.RistStatsSenderPeer.Stats
+  nameWithType: RistStatsReceiverModel.RistStatsSenderPeer.Stats
+- uid: Models.Shared.RistStatsReceiverModel.RistStatsSenderPeer.Stats*
+  name: Stats
+  href: api/Models.Shared.RistStatsReceiverModel.RistStatsSenderPeer.html#Models_Shared_RistStatsReceiverModel_RistStatsSenderPeer_Stats_
+  commentId: Overload:Models.Shared.RistStatsReceiverModel.RistStatsSenderPeer.Stats
+  isSpec: "True"
+  fullName: Models.Shared.RistStatsReceiverModel.RistStatsSenderPeer.Stats
+  nameWithType: RistStatsReceiverModel.RistStatsSenderPeer.Stats
 - uid: moowss_client.Enums
   name: moowss_client.Enums
   href: api/moowss_client.Enums.html
@@ -2390,6 +3160,18 @@ references:
   commentId: F:moowss_client.Enums.DjiEisEnum.RockSteadyPlus
   fullName: moowss_client.Enums.DjiEisEnum.RockSteadyPlus
   nameWithType: DjiEisEnum.RockSteadyPlus
+- uid: moowss_client.Enums.DjiErrorResponseEnum
+  name: DjiErrorResponseEnum
+  href: api/moowss_client.Enums.DjiErrorResponseEnum.html
+  commentId: T:moowss_client.Enums.DjiErrorResponseEnum
+  fullName: moowss_client.Enums.DjiErrorResponseEnum
+  nameWithType: DjiErrorResponseEnum
+- uid: moowss_client.Enums.DjiErrorResponseEnum.WifiCannotConnect
+  name: WifiCannotConnect
+  href: api/moowss_client.Enums.DjiErrorResponseEnum.html#moowss_client_Enums_DjiErrorResponseEnum_WifiCannotConnect
+  commentId: F:moowss_client.Enums.DjiErrorResponseEnum.WifiCannotConnect
+  fullName: moowss_client.Enums.DjiErrorResponseEnum.WifiCannotConnect
+  nameWithType: DjiErrorResponseEnum.WifiCannotConnect
 - uid: moowss_client.Enums.DjiFpsEnum
   name: DjiFpsEnum
   href: api/moowss_client.Enums.DjiFpsEnum.html
@@ -2498,6 +3280,60 @@ references:
   commentId: F:moowss_client.Enums.FormatTypeEnum.YUYV
   fullName: moowss_client.Enums.FormatTypeEnum.YUYV
   nameWithType: FormatTypeEnum.YUYV
+- uid: moowss_client.Enums.IrlBridge
+  name: moowss_client.Enums.IrlBridge
+  href: api/moowss_client.Enums.IrlBridge.html
+  commentId: N:moowss_client.Enums.IrlBridge
+  fullName: moowss_client.Enums.IrlBridge
+  nameWithType: moowss_client.Enums.IrlBridge
+- uid: moowss_client.Enums.IrlBridge.IrlBridgeStreamDeviceEnum
+  name: IrlBridgeStreamDeviceEnum
+  href: api/moowss_client.Enums.IrlBridge.IrlBridgeStreamDeviceEnum.html
+  commentId: T:moowss_client.Enums.IrlBridge.IrlBridgeStreamDeviceEnum
+  fullName: moowss_client.Enums.IrlBridge.IrlBridgeStreamDeviceEnum
+  nameWithType: IrlBridgeStreamDeviceEnum
+- uid: moowss_client.Enums.IrlBridge.IrlBridgeStreamDeviceEnum.IrlPro
+  name: IrlPro
+  href: api/moowss_client.Enums.IrlBridge.IrlBridgeStreamDeviceEnum.html#moowss_client_Enums_IrlBridge_IrlBridgeStreamDeviceEnum_IrlPro
+  commentId: F:moowss_client.Enums.IrlBridge.IrlBridgeStreamDeviceEnum.IrlPro
+  fullName: moowss_client.Enums.IrlBridge.IrlBridgeStreamDeviceEnum.IrlPro
+  nameWithType: IrlBridgeStreamDeviceEnum.IrlPro
+- uid: moowss_client.Enums.IrlBridge.IrlBridgeStreamDeviceEnum.Moblin
+  name: Moblin
+  href: api/moowss_client.Enums.IrlBridge.IrlBridgeStreamDeviceEnum.html#moowss_client_Enums_IrlBridge_IrlBridgeStreamDeviceEnum_Moblin
+  commentId: F:moowss_client.Enums.IrlBridge.IrlBridgeStreamDeviceEnum.Moblin
+  fullName: moowss_client.Enums.IrlBridge.IrlBridgeStreamDeviceEnum.Moblin
+  nameWithType: IrlBridgeStreamDeviceEnum.Moblin
+- uid: moowss_client.Enums.IrlBridge.IrlBridgeStreamTypeEnum
+  name: IrlBridgeStreamTypeEnum
+  href: api/moowss_client.Enums.IrlBridge.IrlBridgeStreamTypeEnum.html
+  commentId: T:moowss_client.Enums.IrlBridge.IrlBridgeStreamTypeEnum
+  fullName: moowss_client.Enums.IrlBridge.IrlBridgeStreamTypeEnum
+  nameWithType: IrlBridgeStreamTypeEnum
+- uid: moowss_client.Enums.IrlBridge.IrlBridgeStreamTypeEnum.Irlbox
+  name: Irlbox
+  href: api/moowss_client.Enums.IrlBridge.IrlBridgeStreamTypeEnum.html#moowss_client_Enums_IrlBridge_IrlBridgeStreamTypeEnum_Irlbox
+  commentId: F:moowss_client.Enums.IrlBridge.IrlBridgeStreamTypeEnum.Irlbox
+  fullName: moowss_client.Enums.IrlBridge.IrlBridgeStreamTypeEnum.Irlbox
+  nameWithType: IrlBridgeStreamTypeEnum.Irlbox
+- uid: moowss_client.Enums.IrlBridge.IrlBridgeStreamTypeEnum.Rtmp
+  name: Rtmp
+  href: api/moowss_client.Enums.IrlBridge.IrlBridgeStreamTypeEnum.html#moowss_client_Enums_IrlBridge_IrlBridgeStreamTypeEnum_Rtmp
+  commentId: F:moowss_client.Enums.IrlBridge.IrlBridgeStreamTypeEnum.Rtmp
+  fullName: moowss_client.Enums.IrlBridge.IrlBridgeStreamTypeEnum.Rtmp
+  nameWithType: IrlBridgeStreamTypeEnum.Rtmp
+- uid: moowss_client.Enums.IrlBridge.IrlBridgeStreamTypeEnum.Srt
+  name: Srt
+  href: api/moowss_client.Enums.IrlBridge.IrlBridgeStreamTypeEnum.html#moowss_client_Enums_IrlBridge_IrlBridgeStreamTypeEnum_Srt
+  commentId: F:moowss_client.Enums.IrlBridge.IrlBridgeStreamTypeEnum.Srt
+  fullName: moowss_client.Enums.IrlBridge.IrlBridgeStreamTypeEnum.Srt
+  nameWithType: IrlBridgeStreamTypeEnum.Srt
+- uid: moowss_client.Enums.IrlBridge.IrlBridgeStreamTypeEnum.Uvc
+  name: Uvc
+  href: api/moowss_client.Enums.IrlBridge.IrlBridgeStreamTypeEnum.html#moowss_client_Enums_IrlBridge_IrlBridgeStreamTypeEnum_Uvc
+  commentId: F:moowss_client.Enums.IrlBridge.IrlBridgeStreamTypeEnum.Uvc
+  fullName: moowss_client.Enums.IrlBridge.IrlBridgeStreamTypeEnum.Uvc
+  nameWithType: IrlBridgeStreamTypeEnum.Uvc
 - uid: moowss_client.Enums.LedColorsBehaviorEnum
   name: LedColorsBehaviorEnum
   href: api/moowss_client.Enums.LedColorsBehaviorEnum.html
@@ -2528,6 +3364,30 @@ references:
   commentId: F:moowss_client.Enums.LedColorsBehaviorEnum.FlashingGreen
   fullName: moowss_client.Enums.LedColorsBehaviorEnum.FlashingGreen
   nameWithType: LedColorsBehaviorEnum.FlashingGreen
+- uid: moowss_client.Enums.MediaMtxConnectionTypeEnum
+  name: MediaMtxConnectionTypeEnum
+  href: api/moowss_client.Enums.MediaMtxConnectionTypeEnum.html
+  commentId: T:moowss_client.Enums.MediaMtxConnectionTypeEnum
+  fullName: moowss_client.Enums.MediaMtxConnectionTypeEnum
+  nameWithType: MediaMtxConnectionTypeEnum
+- uid: moowss_client.Enums.MediaMtxConnectionTypeEnum.Rtmp
+  name: Rtmp
+  href: api/moowss_client.Enums.MediaMtxConnectionTypeEnum.html#moowss_client_Enums_MediaMtxConnectionTypeEnum_Rtmp
+  commentId: F:moowss_client.Enums.MediaMtxConnectionTypeEnum.Rtmp
+  fullName: moowss_client.Enums.MediaMtxConnectionTypeEnum.Rtmp
+  nameWithType: MediaMtxConnectionTypeEnum.Rtmp
+- uid: moowss_client.Enums.MediaMtxConnectionTypeEnum.Srt
+  name: Srt
+  href: api/moowss_client.Enums.MediaMtxConnectionTypeEnum.html#moowss_client_Enums_MediaMtxConnectionTypeEnum_Srt
+  commentId: F:moowss_client.Enums.MediaMtxConnectionTypeEnum.Srt
+  fullName: moowss_client.Enums.MediaMtxConnectionTypeEnum.Srt
+  nameWithType: MediaMtxConnectionTypeEnum.Srt
+- uid: moowss_client.Enums.MediaMtxConnectionTypeEnum.WebRtc
+  name: WebRtc
+  href: api/moowss_client.Enums.MediaMtxConnectionTypeEnum.html#moowss_client_Enums_MediaMtxConnectionTypeEnum_WebRtc
+  commentId: F:moowss_client.Enums.MediaMtxConnectionTypeEnum.WebRtc
+  fullName: moowss_client.Enums.MediaMtxConnectionTypeEnum.WebRtc
+  nameWithType: MediaMtxConnectionTypeEnum.WebRtc
 - uid: moowss_client.Enums.MultisourcePositionEnum
   name: MultisourcePositionEnum
   href: api/moowss_client.Enums.MultisourcePositionEnum.html
@@ -2630,12 +3490,30 @@ references:
   commentId: F:moowss_client.Enums.PipelineCategoryEnum.PIP_RTMP_SRT
   fullName: moowss_client.Enums.PipelineCategoryEnum.PIP_RTMP_SRT
   nameWithType: PipelineCategoryEnum.PIP_RTMP_SRT
+- uid: moowss_client.Enums.PipelineCategoryEnum.PIP_SRT_SRT
+  name: PIP_SRT_SRT
+  href: api/moowss_client.Enums.PipelineCategoryEnum.html#moowss_client_Enums_PipelineCategoryEnum_PIP_SRT_SRT
+  commentId: F:moowss_client.Enums.PipelineCategoryEnum.PIP_SRT_SRT
+  fullName: moowss_client.Enums.PipelineCategoryEnum.PIP_SRT_SRT
+  nameWithType: PipelineCategoryEnum.PIP_SRT_SRT
+- uid: moowss_client.Enums.PipelineCategoryEnum.PIP_SRT_UVC
+  name: PIP_SRT_UVC
+  href: api/moowss_client.Enums.PipelineCategoryEnum.html#moowss_client_Enums_PipelineCategoryEnum_PIP_SRT_UVC
+  commentId: F:moowss_client.Enums.PipelineCategoryEnum.PIP_SRT_UVC
+  fullName: moowss_client.Enums.PipelineCategoryEnum.PIP_SRT_UVC
+  nameWithType: PipelineCategoryEnum.PIP_SRT_UVC
 - uid: moowss_client.Enums.PipelineCategoryEnum.PIP_UVC
   name: PIP_UVC
   href: api/moowss_client.Enums.PipelineCategoryEnum.html#moowss_client_Enums_PipelineCategoryEnum_PIP_UVC
   commentId: F:moowss_client.Enums.PipelineCategoryEnum.PIP_UVC
   fullName: moowss_client.Enums.PipelineCategoryEnum.PIP_UVC
   nameWithType: PipelineCategoryEnum.PIP_UVC
+- uid: moowss_client.Enums.PipelineCategoryEnum.PIP_UVC_TRIPPLE
+  name: PIP_UVC_TRIPPLE
+  href: api/moowss_client.Enums.PipelineCategoryEnum.html#moowss_client_Enums_PipelineCategoryEnum_PIP_UVC_TRIPPLE
+  commentId: F:moowss_client.Enums.PipelineCategoryEnum.PIP_UVC_TRIPPLE
+  fullName: moowss_client.Enums.PipelineCategoryEnum.PIP_UVC_TRIPPLE
+  nameWithType: PipelineCategoryEnum.PIP_UVC_TRIPPLE
 - uid: moowss_client.Enums.PipelineCategoryEnum.RTMP
   name: RTMP
   href: api/moowss_client.Enums.PipelineCategoryEnum.html#moowss_client_Enums_PipelineCategoryEnum_RTMP
@@ -2672,6 +3550,12 @@ references:
   commentId: F:moowss_client.Enums.PipelineCategoryEnum.TEST_PIP
   fullName: moowss_client.Enums.PipelineCategoryEnum.TEST_PIP
   nameWithType: PipelineCategoryEnum.TEST_PIP
+- uid: moowss_client.Enums.PipelineCategoryEnum.TEST_PIP_TRIPPLE
+  name: TEST_PIP_TRIPPLE
+  href: api/moowss_client.Enums.PipelineCategoryEnum.html#moowss_client_Enums_PipelineCategoryEnum_TEST_PIP_TRIPPLE
+  commentId: F:moowss_client.Enums.PipelineCategoryEnum.TEST_PIP_TRIPPLE
+  fullName: moowss_client.Enums.PipelineCategoryEnum.TEST_PIP_TRIPPLE
+  nameWithType: PipelineCategoryEnum.TEST_PIP_TRIPPLE
 - uid: moowss_client.Enums.PipelineCategoryEnum.TEST_VIDEO_MULTIAUDIO
   name: TEST_VIDEO_MULTIAUDIO
   href: api/moowss_client.Enums.PipelineCategoryEnum.html#moowss_client_Enums_PipelineCategoryEnum_TEST_VIDEO_MULTIAUDIO
@@ -2846,6 +3730,30 @@ references:
   commentId: F:moowss_client.Enums.RoleTypeEnum.User
   fullName: moowss_client.Enums.RoleTypeEnum.User
   nameWithType: RoleTypeEnum.User
+- uid: moowss_client.Enums.RootDeviceEnum
+  name: RootDeviceEnum
+  href: api/moowss_client.Enums.RootDeviceEnum.html
+  commentId: T:moowss_client.Enums.RootDeviceEnum
+  fullName: moowss_client.Enums.RootDeviceEnum
+  nameWithType: RootDeviceEnum
+- uid: moowss_client.Enums.RootDeviceEnum.Emmc
+  name: Emmc
+  href: api/moowss_client.Enums.RootDeviceEnum.html#moowss_client_Enums_RootDeviceEnum_Emmc
+  commentId: F:moowss_client.Enums.RootDeviceEnum.Emmc
+  fullName: moowss_client.Enums.RootDeviceEnum.Emmc
+  nameWithType: RootDeviceEnum.Emmc
+- uid: moowss_client.Enums.RootDeviceEnum.Nvme
+  name: Nvme
+  href: api/moowss_client.Enums.RootDeviceEnum.html#moowss_client_Enums_RootDeviceEnum_Nvme
+  commentId: F:moowss_client.Enums.RootDeviceEnum.Nvme
+  fullName: moowss_client.Enums.RootDeviceEnum.Nvme
+  nameWithType: RootDeviceEnum.Nvme
+- uid: moowss_client.Enums.RootDeviceEnum.SdCard
+  name: SdCard
+  href: api/moowss_client.Enums.RootDeviceEnum.html#moowss_client_Enums_RootDeviceEnum_SdCard
+  commentId: F:moowss_client.Enums.RootDeviceEnum.SdCard
+  fullName: moowss_client.Enums.RootDeviceEnum.SdCard
+  nameWithType: RootDeviceEnum.SdCard
 - uid: moowss_client.Enums.TimingModeEnum
   name: TimingModeEnum
   href: api/moowss_client.Enums.TimingModeEnum.html
@@ -2870,6 +3778,24 @@ references:
   commentId: F:moowss_client.Enums.TimingModeEnum.RtpRtcpTimestampPlusNtp
   fullName: moowss_client.Enums.TimingModeEnum.RtpRtcpTimestampPlusNtp
   nameWithType: TimingModeEnum.RtpRtcpTimestampPlusNtp
+- uid: moowss_client.Enums.VideoEncodingEnum
+  name: VideoEncodingEnum
+  href: api/moowss_client.Enums.VideoEncodingEnum.html
+  commentId: T:moowss_client.Enums.VideoEncodingEnum
+  fullName: moowss_client.Enums.VideoEncodingEnum
+  nameWithType: VideoEncodingEnum
+- uid: moowss_client.Enums.VideoEncodingEnum.H264
+  name: H264
+  href: api/moowss_client.Enums.VideoEncodingEnum.html#moowss_client_Enums_VideoEncodingEnum_H264
+  commentId: F:moowss_client.Enums.VideoEncodingEnum.H264
+  fullName: moowss_client.Enums.VideoEncodingEnum.H264
+  nameWithType: VideoEncodingEnum.H264
+- uid: moowss_client.Enums.VideoEncodingEnum.H265
+  name: H265
+  href: api/moowss_client.Enums.VideoEncodingEnum.html#moowss_client_Enums_VideoEncodingEnum_H265
+  commentId: F:moowss_client.Enums.VideoEncodingEnum.H265
+  fullName: moowss_client.Enums.VideoEncodingEnum.H265
+  nameWithType: VideoEncodingEnum.H265
 - uid: moowss_client.Enums.VideoFormatsEnum
   name: VideoFormatsEnum
   href: api/moowss_client.Enums.VideoFormatsEnum.html
