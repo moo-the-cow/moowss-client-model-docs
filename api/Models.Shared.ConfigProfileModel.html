@@ -455,8 +455,7 @@ public string RemoteAddr { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[RegularExpression(&quot;^[\\d]{4,}$&quot;, ErrorMessage = &quot;You cannot enter reserved Port numbers enter a higher Portnumber&quot;)]
-[Required(ErrorMessage = &quot;Port Number must be entered&quot;)]
+    <pre><code class="lang-csharp hljs">[Required(ErrorMessage = &quot;Port Number must be entered&quot;)]
 [JsonPropertyName(&quot;RemotePort&quot;)]
 public int RemotePort { get; set; }</code></pre>
   </div>
