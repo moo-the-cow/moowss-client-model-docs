@@ -4,6 +4,692 @@
   "files": [
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Enums.AudioAlertExtensionTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.AudioAlertExtensionTypeEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.AudioAlertExtensionTypeEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.AudioAlertTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.AudioAlertTypeEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.AudioAlertTypeEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.AudioChannelOutputEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.AudioChannelOutputEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.AudioChannelOutputEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.AudioChannelsEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.AudioChannelsEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.AudioChannelsEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.AudioCodecEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.AudioCodecEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.AudioCodecEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.AudioRateEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.AudioRateEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.AudioRateEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.BoardNamesEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.BoardNamesEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.BoardNamesEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.ClaimTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.ClaimTypeEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.ClaimTypeEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.CongestionControlEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.CongestionControlEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.CongestionControlEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.DiscordWebhookPurposeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.DiscordWebhookPurposeEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.DiscordWebhookPurposeEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.DjiAutoStartOptionsEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.DjiAutoStartOptionsEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.DjiAutoStartOptionsEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.DjiEisEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.DjiEisEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.DjiEisEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.DjiErrorResponseEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.DjiErrorResponseEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.DjiErrorResponseEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.DjiFpsEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.DjiFpsEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.DjiFpsEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.DjiModelEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.DjiModelEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.DjiModelEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.DjiResolutionEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.DjiResolutionEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.DjiResolutionEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.FormatTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.FormatTypeEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.FormatTypeEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.IrlBridge.IrlBridgeStreamDeviceEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.IrlBridge.IrlBridgeStreamDeviceEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.IrlBridge.IrlBridgeStreamDeviceEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.IrlBridge.IrlBridgeStreamTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.IrlBridge.IrlBridgeStreamTypeEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.IrlBridge.IrlBridgeStreamTypeEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.IrlBridge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.IrlBridge.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.IrlBridge",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.LedColorsBehaviorEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.LedColorsBehaviorEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.LedColorsBehaviorEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.LiveWallPurposeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.LiveWallPurposeEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.LiveWallPurposeEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.MediaMtxConnectionTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.MediaMtxConnectionTypeEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.MediaMtxConnectionTypeEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.ModemDriverEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.ModemDriverEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.ModemDriverEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.ModemManagerErrorEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.ModemManagerErrorEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.ModemManagerErrorEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.ModemManufacturerEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.ModemManufacturerEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.ModemManufacturerEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.ModemModelEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.ModemModelEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.ModemModelEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.ModemOperatorAvailabilityEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.ModemOperatorAvailabilityEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.ModemOperatorAvailabilityEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.ModemOperatorQmiAvailabilityEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.ModemOperatorQmiAvailabilityEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.ModemOperatorQmiAvailabilityEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.ModemQmiStateEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.ModemQmiStateEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.ModemQmiStateEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.ModemStateEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.ModemStateEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.ModemStateEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.ModemStateFailledMessageEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.ModemStateFailledMessageEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.ModemStateFailledMessageEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.MultisourcePositionEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.MultisourcePositionEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.MultisourcePositionEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.PipelineCategoryEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.PipelineCategoryEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.PipelineCategoryEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.PolicyEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.PolicyEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.PolicyEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.ProtocolEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.ProtocolEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.ProtocolEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.RistEncryptionEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.RistEncryptionEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.RistEncryptionEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.RistTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.RistTypeEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.RistTypeEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.RoleTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.RoleTypeEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.RoleTypeEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.RootDeviceEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.RootDeviceEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.RootDeviceEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.TimingModeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.TimingModeEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.TimingModeEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.VideoEncodingEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.VideoEncodingEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.VideoEncodingEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.VideoFormatsEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.VideoFormatsEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.VideoFormatsEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.WifiFrequenciesEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.WifiFrequenciesEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.WifiFrequenciesEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.WifiHotspotSecurityEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.WifiHotspotSecurityEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.WifiHotspotSecurityEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.WifiOrderEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.WifiOrderEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.WifiOrderEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.WifiSecurityEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.WifiSecurityEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.WifiSecurityEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.WifiSignalEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.WifiSignalEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums.WifiSignalEnum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enums.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Enums",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Models.Shared.ConfigBitrateModel.yml",
       "output": {
         ".html": {
